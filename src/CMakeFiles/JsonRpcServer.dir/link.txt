@@ -1,0 +1,2 @@
+C:/msys64/mingw64/bin/ar.exe qc libJsonRpcServer.a  CMakeFiles/JsonRpcServer.dir/JsonRpcServer/JsonRpcServer.cpp.obj
+C:/msys64/mingw64/bin/ranlib.exe libJsonRpcServer.a

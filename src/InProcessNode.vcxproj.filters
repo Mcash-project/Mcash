@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\InProcessNode\InProcessNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\InProcessNode\InProcessNodeErrors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\InProcessNode\InProcessNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\InProcessNode\InProcessNodeErrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{52D6FA69-D2E2-3A0E-A84F-F07AE7DFBAF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{681D11A7-97BC-3811-A26D-F13FD832F1B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

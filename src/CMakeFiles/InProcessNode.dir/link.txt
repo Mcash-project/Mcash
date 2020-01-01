@@ -1,0 +1,2 @@
+C:/msys64/mingw64/bin/ar.exe qc libInProcessNode.a  CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNode.cpp.obj CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNodeErrors.cpp.obj
+C:/msys64/mingw64/bin/ranlib.exe libInProcessNode.a

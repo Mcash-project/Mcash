@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1CFF106B-97CD-39AF-9B3C-0752993BD4BE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Platform\Windows;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\platform\msc;C:\local\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Platform\Windows;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\platform\msc;C:\local\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Platform\Windows;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\platform\msc;C:\local\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\BlockchainExplorer.vcxproj">
+      <Project>{BCD71AB0-94EE-3079-8579-F0E6A3797359}</Project>
+      <Name>BlockchainExplorer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common.vcxproj">
+      <Project>{8463E345-16C7-3768-AC9C-038E1CA4DCC2}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\ConnectivityTool.vcxproj">
+      <Project>{42ED5C5E-CB51-3F32-8799-7F6226592D80}</Project>
+      <Name>ConnectivityTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests.vcxproj">
+      <Project>{FAB1F674-280A-301D-87AB-58EFA76C3B97}</Project>
+      <Name>CoreTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Crypto.vcxproj">
+      <Project>{44CDFB8C-2F22-32C2-A369-BA3E3D2AE1CD}</Project>
+      <Name>Crypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\CryptoNoteCore.vcxproj">
+      <Project>{DEDED075-36BA-3160-B1FB-00589BFFE6D3}</Project>
+      <Name>CryptoNoteCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CryptoTests.vcxproj">
+      <Project>{6E802E47-D5B7-3ADE-B512-4CEC97AA1ECB}</Project>
+      <Name>CryptoTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Daemon.vcxproj">
+      <Project>{A679DFC5-C720-3E27-A0FC-A711E35E983C}</Project>
+      <Name>Daemon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\DifficultyTests.vcxproj">
+      <Project>{DC1107B3-25CE-3F98-B82E-73F3570284F3}</Project>
+      <Name>DifficultyTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\HashTargetTests.vcxproj">
+      <Project>{7337392B-3580-3749-BB38-21FA8D63DA01}</Project>
+      <Name>HashTargetTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\HashTests.vcxproj">
+      <Project>{EA6AD468-8C46-32E3-A27D-9DD14C4AEAB0}</Project>
+      <Name>HashTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Http.vcxproj">
+      <Project>{6880ABC9-3D9F-3DDE-AB91-C276306BAE8B}</Project>
+      <Name>Http</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\InProcessNode.vcxproj">
+      <Project>{F7826DCC-6798-3B37-904A-7A87BA2500FB}</Project>
+      <Name>InProcessNode</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLibrary.vcxproj">
+      <Project>{3A5C76B8-8882-3B68-A68C-2183EDD77248}</Project>
+      <Name>IntegrationTestLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTests.vcxproj">
+      <Project>{460EF14B-50BB-3AB5-BA31-2D6ECE2BDE10}</Project>
+      <Name>IntegrationTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\JsonRpcServer.vcxproj">
+      <Project>{4FCF6D05-0E9F-3F1C-8EE9-397DEA311E57}</Project>
+      <Name>JsonRpcServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Logging.vcxproj">
+      <Project>{BC574174-D077-3DDD-A0B7-30F665C68BDD}</Project>
+      <Name>Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Miner.vcxproj">
+      <Project>{2C0A74F1-2AAD-3554-963D-77428B72F5ED}</Project>
+      <Name>Miner</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\NodeRpcProxy.vcxproj">
+      <Project>{2C759EC0-37A8-3687-AE13-FD984117C866}</Project>
+      <Name>NodeRpcProxy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\NodeRpcProxyTests.vcxproj">
+      <Project>{CC791BE9-79CA-3A67-980F-2FAF9EDF80F5}</Project>
+      <Name>NodeRpcProxyTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\P2P.vcxproj">
+      <Project>{746CB1E0-6030-3027-9462-027260DE7D46}</Project>
+      <Name>P2P</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\PaymentGate.vcxproj">
+      <Project>{E52FDA45-E16F-3D5F-BB7A-F38C575F6B41}</Project>
+      <Name>PaymentGate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\PaymentGateService.vcxproj">
+      <Project>{13553A07-15F6-3835-90CA-A51289F0716B}</Project>
+      <Name>PaymentGateService</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\PerformanceTests.vcxproj">
+      <Project>{223B9E94-708A-33C8-81DD-2F6849F44804}</Project>
+      <Name>PerformanceTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Rpc.vcxproj">
+      <Project>{4F4F5FF6-8807-3EA9-B656-4BD4C3519513}</Project>
+      <Name>Rpc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Serialization.vcxproj">
+      <Project>{C8ED4765-BD00-3040-ADBD-6067D53C281F}</Project>
+      <Name>Serialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\SimpleWallet.vcxproj">
+      <Project>{0B032A15-328A-3F08-8274-FBF562A6DDE2}</Project>
+      <Name>SimpleWallet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\System.vcxproj">
+      <Project>{2532C784-BAFC-34AE-B306-89E1FB1849CF}</Project>
+      <Name>System</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\SystemTests.vcxproj">
+      <Project>{77782B97-6297-3395-8B9A-F8F68C5F09E5}</Project>
+      <Name>SystemTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\TestGenerator.vcxproj">
+      <Project>{D4C65DA1-A7BE-3BF3-A3FA-FE666F4C6EF0}</Project>
+      <Name>TestGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers.vcxproj">
+      <Project>{B365616A-6B04-3A15-BF3D-EA794505F4B8}</Project>
+      <Name>Transfers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\TransfersTests.vcxproj">
+      <Project>{6F37D858-DDA8-3520-8549-9A63E93B67F3}</Project>
+      <Name>TransfersTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests.vcxproj">
+      <Project>{2D406385-D8B8-354B-AD7E-1E5A9A369287}</Project>
+      <Name>UnitTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Wallet.vcxproj">
+      <Project>{EBB2FADB-78FB-36CA-A3DF-A191561A07F8}</Project>
+      <Name>Wallet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest\gtest.vcxproj">
+      <Project>{FD8FE6FA-CBE6-3E0B-B5AE-E7ADFB8B828A}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest\gtest_main.vcxproj">
+      <Project>{5CE59687-E560-323D-A521-613342FB96EE}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\miniupnpc\upnpc-static.vcxproj">
+      <Project>{04BE2511-B843-3C6D-A265-E05BEC8C661B}</Project>
+      <Name>upnpc-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\version.vcxproj">
+      <Project>{E216B0AF-8572-3FF6-AA38-AA0C4D8C8601}</Project>
+      <Name>version</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,2 @@
+C:/msys64/mingw64/bin/ar.exe qc libNodeRpcProxy.a  CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.obj CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.obj
+C:/msys64/mingw64/bin/ranlib.exe libNodeRpcProxy.a

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\ArrayRefTests.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\ArrayViewTests.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\Base58.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\BlockReward.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\BlockingQueue.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\Chacha8.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\Checkpoints.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\DecomposeAmountIntoDigits.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\EventWaiter.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\ICoreStub.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\ICryptoNoteProtocolQueryStub.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\INodeStubs.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\MulDiv.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\ParseAmount.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\PaymentGateTests.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\Serialization.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\SerializationKV.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\Shuffle.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\StringBufferTests.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\StringViewTests.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestBcS.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestBlockchainExplorer.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestBlockchainGenerator.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestCurrency.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestFormatUtils.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestInprocessNode.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestJsonValue.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestMessageQueue.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestPath.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestPeerlist.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestProtocolPack.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestTransactionPoolDetach.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestTransfers.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestTransfersConsumer.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestTransfersContainer.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestTransfersContainerKeyImage.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestTransfersSubscription.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestWallet.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestWalletLegacy.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestWalletService.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TransactionApi.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TransactionApiHelpers.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TransactionPool.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\EventWaiter.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\ICoreStub.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\ICryptoNoteProtocolQueryStub.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\INodeStubs.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TestBlockchainGenerator.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TransactionApiHelpers.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\TransfersObserver.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests\UnitTestsUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers\BlockchainSynchronizer.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers\SynchronizationState.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers\TransfersConsumer.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers\TransfersContainer.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers\TransfersSubscription.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers\TransfersSynchronizer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers\BlockchainSynchronizer.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers\CommonTypes.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers\IBlockchainSynchronizer.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers\IObservableImpl.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers\SynchronizationState.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers\TransfersConsumer.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers\TransfersContainer.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers\TransfersSubscription.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers\TransfersSynchronizer.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Transfers\TypeHelpers.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

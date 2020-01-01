@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\Base58.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\BlockingQueue.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\CommandLine.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\ConsoleHandler.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\ConsoleTools.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\IInputStream.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\IOutputStream.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\JsonValue.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\Math.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\MemoryInputStream.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\PathTools.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\ScopeExit.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\SignalHandler.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\StdInputStream.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\StdOutputStream.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\StreamTools.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\StringInputStream.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\StringOutputStream.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\StringTools.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\StringView.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\Util.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\VectorOutputStream.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\ArrayRef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\ArrayView.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\Base58.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\BlockingQueue.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\CommandLine.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\ConsoleHandler.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\ConsoleTools.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\IInputStream.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\IOutputStream.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\JsonValue.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\Math.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\MemoryInputStream.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\ObserverManager.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\PathTools.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\ScopeExit.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\ShuffleGenerator.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\SignalHandler.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\StdInputStream.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\StdOutputStream.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\StreamTools.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\StringBuffer.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\StringInputStream.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\StringOutputStream.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\StringTools.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\StringView.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\Util.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\Varint.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\VectorOutputStream.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\int-util.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\pod-class.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common\static_assert.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{52D6FA69-D2E2-3A0E-A84F-F07AE7DFBAF6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Hash\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{681D11A7-97BC-3811-A26D-F13FD832F1B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

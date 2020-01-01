@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\BaseFunctionalTests.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\InProcTestNode.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\Logger.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\Process.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\RPCTestNode.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\TestNetwork.cpp" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\TestWalletLegacy.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\BaseFunctionalTests.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\InProcTestNode.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\Logger.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\NetworkConfiguration.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\NodeCallback.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\NodeObserver.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\ObservableValue.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\Process.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\RPCTestNode.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\TestNetwork.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\TestNode.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTestLib\TestWalletLegacy.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

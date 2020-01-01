@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\CMakeFiles\d20bb17b86edf9cc1bce52d73f61b6d3\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C9C85EE0-CEB9-34C0-8CB6-6811DBAC1C39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

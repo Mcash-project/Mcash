@@ -1,0 +1,72 @@
+2019-Dec-31 22:43:33.578789 INFO [daemon] Mcash v1.1.1.1(0.1-g8edd998304)
+2019-Dec-31 22:43:33.583793 INFO [daemon] Module folder: C:\Users\bmali\AppData\Roaming\cryptonote-master\cryptonote-master\src\Debug\Mcashd.exe
+2019-Dec-31 22:43:33.588788 ERROR [currency] failed to parse coinbase tx from hard coded blob
+2019-Dec-31 22:43:33.590788 ERROR [currency] Failed to generate genesis block
+2019-Dec-31 22:43:40.808901 INFO [daemon] Mcash v1.1.1.1(0.1-g8edd998304)
+2019-Dec-31 22:43:40.813903 INFO [daemon] Module folder: C:\Users\bmali\AppData\Roaming\cryptonote-master\cryptonote-master\src\Debug\Mcashd.exe
+2019-Dec-31 22:43:40.817902 ERROR [currency] failed to parse coinbase tx from hard coded blob
+2019-Dec-31 22:43:40.819901 ERROR [currency] Failed to generate genesis block
+2019-Dec-31 22:49:29.105233 INFO [daemon] Mcash v1.1.1.1(0.1-g8edd998304)
+2019-Dec-31 22:49:29.111235 INFO [daemon] Module folder: C:\Users\bmali\AppData\Roaming\cryptonote-master\cryptonote-master\src\Debug\Mcashd.exe
+2019-Dec-31 22:49:29.121234 INFO [daemon] Initializing p2p server...
+2019-Dec-31 22:49:29.124235 INFO [node_server] Binding on 0.0.0.0:55055
+2019-Dec-31 22:49:29.129235 INFO [node_server] Net service binded on 0.0.0.0:55055
+2019-Dec-31 22:49:29.131235 INFO [node_server] Attempting to add IGD port mapping.
+2019-Dec-31 22:49:30.436933 INFO [node_server] Added IGD port mapping.
+2019-Dec-31 22:49:30.438933 INFO [daemon] P2p server initialized OK
+2019-Dec-31 22:49:30.441932 INFO [daemon] Initializing core...
+2019-Dec-31 22:49:30.446934 INFO [Blockchain] Blockchain not loaded, generating genesis block.
+2019-Dec-31 22:49:30.523939 INFO [Blockchain] Blockchain initialized. last block: 0, d2736.h23.m49.s30 time ago, current difficulty: 1
+2019-Dec-31 22:49:30.526939 INFO [daemon] Core initialized OK
+2019-Dec-31 22:49:30.529941 INFO [daemon] Starting core rpc server on address 127.0.0.1:55155
+2019-Dec-31 22:49:30.532941 INFO [daemon] Core rpc server started ok
+2019-Dec-31 22:49:30.534941 INFO [daemon] Starting p2p net loop...
+2019-Dec-31 22:49:30.536940 INFO [node_server] Starting node_server
+2019-Dec-31 22:49:45.544456 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:49:45.547453 INFO [core] 
+2019-Dec-31 22:49:45.547453 INFO [core] **********************************************************************
+2019-Dec-31 22:49:45.547453 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2019-Dec-31 22:49:45.547453 INFO [core] 
+2019-Dec-31 22:49:45.547453 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2019-Dec-31 22:49:45.547453 INFO [core] 
+2019-Dec-31 22:49:45.547453 INFO [core] Use "help" command to see the list of available commands.
+2019-Dec-31 22:49:45.547453 INFO [core] 
+2019-Dec-31 22:49:45.547453 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2019-Dec-31 22:49:45.547453 INFO [core] **********************************************************************
+2019-Dec-31 22:50:02.575816 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:50:19.582958 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:50:36.593427 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:50:53.599344 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:51:10.607228 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:51:24.807441 INFO [daemon] Mcash v1.1.1.1(0.1-g8edd998304)
+2019-Dec-31 22:51:24.812442 INFO [daemon] Module folder: C:\Users\bmali\AppData\Roaming\cryptonote-master\cryptonote-master\src\Debug\Mcashd.exe
+2019-Dec-31 22:51:24.821444 INFO [daemon] Initializing p2p server...
+2019-Dec-31 22:51:24.824443 INFO [node_server] Binding on 0.0.0.0:55055
+2019-Dec-31 22:51:24.829444 INFO [miner] Mining has been stopped, 0 finished
+2019-Dec-31 22:51:24.833444 ERROR [daemon] Exception: TcpListener::TcpListener, bind failed, result=10048, Only one usage of each socket address (protocol/network address/port) is normally permitted.
+
+2019-Dec-31 22:51:27.615600 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:51:44.622033 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:52:01.630185 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:52:18.639318 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:52:35.648049 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:52:52.657186 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:53:09.667587 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:53:26.671668 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:53:43.682824 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:54:00.690718 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:54:17.697858 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:54:34.705928 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:54:51.714349 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:55:08.722967 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:55:25.731744 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:55:42.742680 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:55:59.753039 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:56:16.760890 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:56:33.781049 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:56:50.824057 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:57:07.829938 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:57:24.858460 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:57:41.864714 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:57:58.872693 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2019-Dec-31 22:58:15.879866 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds

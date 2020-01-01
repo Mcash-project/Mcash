@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\CMakeFiles\2857b8936801c527d4c1d22e494b4bba\tests.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CMakeFiles\tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C9C85EE0-CEB9-34C0-8CB6-6811DBAC1C39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

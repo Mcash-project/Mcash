@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FAB1F674-280A-301D-87AB-58EFA76C3B97}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>CoreTests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CoreTests.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">core_tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CoreTests.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">core_tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CoreTests.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">core_tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Platform\Windows;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\..\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\platform\msc;C:\local\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Platform\Windows;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\..\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\platform\msc;C:\local\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Platform\Windows;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\..\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\platform\msc;C:\local\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\TestGenerator.lib;..\src\Debug\CryptoNoteCore.lib;..\src\Debug\Serialization.lib;..\src\Debug\System.lib;..\src\Debug\Logging.lib;..\src\Debug\Common.lib;..\src\Debug\Crypto.lib;..\src\Debug\BlockchainExplorer.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_system-vc142-mt-sgd-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_filesystem-vc142-mt-sgd-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_thread-vc142-mt-sgd-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_date_time-vc142-mt-sgd-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_chrono-vc142-mt-sgd-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_regex-vc142-mt-sgd-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_serialization-vc142-mt-sgd-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_program_options-vc142-mt-sgd-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_atomic-vc142-mt-sgd-x64-1_72.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/bmali/AppData/Roaming/Mcash Git/Mcash/tests/Debug/core_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/bmali/AppData/Roaming/Mcash Git/Mcash/tests/Debug/core_tests.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10485760</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Platform\Windows;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\..\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\platform\msc;C:\local\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Platform\Windows;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\..\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\platform\msc;C:\local\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Platform\Windows;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\..\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\platform\msc;C:\local\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\TestGenerator.lib;..\src\RelWithDebInfo\CryptoNoteCore.lib;..\src\RelWithDebInfo\Serialization.lib;..\src\RelWithDebInfo\System.lib;..\src\RelWithDebInfo\Logging.lib;..\src\RelWithDebInfo\Common.lib;..\src\RelWithDebInfo\Crypto.lib;..\src\RelWithDebInfo\BlockchainExplorer.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_system-vc142-mt-s-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_filesystem-vc142-mt-s-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_thread-vc142-mt-s-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_date_time-vc142-mt-s-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_chrono-vc142-mt-s-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_regex-vc142-mt-s-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_serialization-vc142-mt-s-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_program_options-vc142-mt-s-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_atomic-vc142-mt-s-x64-1_72.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/bmali/AppData/Roaming/Mcash Git/Mcash/tests/RelWithDebInfo/core_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/bmali/AppData/Roaming/Mcash Git/Mcash/tests/RelWithDebInfo/core_tests.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10485760</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Platform\Windows;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\..\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\platform\msc;C:\local\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Platform\Windows;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\..\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\platform\msc;C:\local\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Platform\Windows;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\..\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\platform\msc;C:\local\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\TestGenerator.lib;..\src\Release\CryptoNoteCore.lib;..\src\Release\Serialization.lib;..\src\Release\System.lib;..\src\Release\Logging.lib;..\src\Release\Common.lib;..\src\Release\Crypto.lib;..\src\Release\BlockchainExplorer.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_system-vc142-mt-s-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_filesystem-vc142-mt-s-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_thread-vc142-mt-s-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_date_time-vc142-mt-s-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_chrono-vc142-mt-s-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_regex-vc142-mt-s-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_serialization-vc142-mt-s-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_program_options-vc142-mt-s-x64-1_72.lib;C:\local\boost_1_72_0\lib64-msvc-14.2\libboost_atomic-vc142-mt-s-x64-1_72.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/bmali/AppData/Roaming/Mcash Git/Mcash/tests/Release/core_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/bmali/AppData/Roaming/Mcash Git/Mcash/tests/Release/core_tests.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10485760</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\AccountBoostSerialization.h" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\BlockReward.cpp" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\BlockReward.h" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\BlockValidation.cpp" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\BlockValidation.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\BoostSerializationHelper.h" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\ChainSplit1.cpp" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\ChainSplit1.h" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\ChainSwitch1.cpp" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\ChainSwitch1.h" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\Chaingen.cpp" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\Chaingen.h" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\Chaingen001.cpp" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\Chaingen001.h" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\ChaingenMain.cpp" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\CryptoNoteBoostSerialization.h" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\DoubleSpend.cpp" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\DoubleSpend.h" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\IntegerOverflow.cpp" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\IntegerOverflow.h" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\RandomOuts.cpp" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\RandomOuts.h" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\RingSignature.cpp" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\RingSignature.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\TestGenerator.h" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\TransactionBuilder.cpp" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\TransactionBuilder.h" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\TransactionTests.cpp" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\TransactionTests.h" />
+    <ClCompile Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\TransactionValidation.cpp" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\TransactionValidation.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\UnorderedContainersBoostSerialization.h" />
+    <ClInclude Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests\double_spend.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\BlockchainExplorer.vcxproj">
+      <Project>{BCD71AB0-94EE-3079-8579-F0E6A3797359}</Project>
+      <Name>BlockchainExplorer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Common.vcxproj">
+      <Project>{8463E345-16C7-3768-AC9C-038E1CA4DCC2}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Crypto.vcxproj">
+      <Project>{44CDFB8C-2F22-32C2-A369-BA3E3D2AE1CD}</Project>
+      <Name>Crypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\CryptoNoteCore.vcxproj">
+      <Project>{DEDED075-36BA-3160-B1FB-00589BFFE6D3}</Project>
+      <Name>CryptoNoteCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Logging.vcxproj">
+      <Project>{BC574174-D077-3DDD-A0B7-30F665C68BDD}</Project>
+      <Name>Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Serialization.vcxproj">
+      <Project>{C8ED4765-BD00-3040-ADBD-6067D53C281F}</Project>
+      <Name>Serialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\System.vcxproj">
+      <Project>{2532C784-BAFC-34AE-B306-89E1FB1849CF}</Project>
+      <Name>System</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\TestGenerator.vcxproj">
+      <Project>{D4C65DA1-A7BE-3BF3-A3FA-FE666F4C6EF0}</Project>
+      <Name>TestGenerator</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

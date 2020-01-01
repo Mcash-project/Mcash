@@ -1,0 +1,2 @@
+C:/msys64/mingw64/bin/ar.exe qc libRpc.a  CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.obj CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.obj CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.obj CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.obj CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.obj
+C:/msys64/mingw64/bin/ranlib.exe libRpc.a

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{63A083AC-2DBB-348C-8F57-B4FA2F9E841F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>tests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Platform\Windows;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\..\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\platform\msc;C:\local\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Platform\Windows;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\..\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\platform\msc;C:\local\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Platform\Windows;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest\include;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\external\gtest;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\..\version;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\platform\msc;C:\local\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\CMakeFiles\2857b8936801c527d4c1d22e494b4bba\tests.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Debug\core_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Debug\integration_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Debug\node_rpc_proxy_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Debug\performance_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Debug\system_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Debug\transfers_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Debug\unit_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Debug\difficulty_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Debug\hash_target_tests.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CMakeFiles\tests</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\RelWithDebInfo\core_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\RelWithDebInfo\integration_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\RelWithDebInfo\node_rpc_proxy_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\RelWithDebInfo\performance_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\RelWithDebInfo\system_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\RelWithDebInfo\transfers_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\RelWithDebInfo\unit_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\RelWithDebInfo\difficulty_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\RelWithDebInfo\hash_target_tests.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CMakeFiles\tests</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Release\core_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Release\integration_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Release\node_rpc_proxy_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Release\performance_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Release\system_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Release\transfers_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Release\unit_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Release\difficulty_tests.exe;C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\Release\hash_target_tests.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CMakeFiles\tests</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CMakeFiles\tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\CoreTests.vcxproj">
+      <Project>{FAB1F674-280A-301D-87AB-58EFA76C3B97}</Project>
+      <Name>CoreTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\DifficultyTests.vcxproj">
+      <Project>{DC1107B3-25CE-3F98-B82E-73F3570284F3}</Project>
+      <Name>DifficultyTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\HashTargetTests.vcxproj">
+      <Project>{7337392B-3580-3749-BB38-21FA8D63DA01}</Project>
+      <Name>HashTargetTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\IntegrationTests.vcxproj">
+      <Project>{460EF14B-50BB-3AB5-BA31-2D6ECE2BDE10}</Project>
+      <Name>IntegrationTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\NodeRpcProxyTests.vcxproj">
+      <Project>{CC791BE9-79CA-3A67-980F-2FAF9EDF80F5}</Project>
+      <Name>NodeRpcProxyTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\PerformanceTests.vcxproj">
+      <Project>{223B9E94-708A-33C8-81DD-2F6849F44804}</Project>
+      <Name>PerformanceTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\SystemTests.vcxproj">
+      <Project>{77782B97-6297-3395-8B9A-F8F68C5F09E5}</Project>
+      <Name>SystemTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\TransfersTests.vcxproj">
+      <Project>{6F37D858-DDA8-3520-8549-9A63E93B67F3}</Project>
+      <Name>TransfersTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\tests\UnitTests.vcxproj">
+      <Project>{2D406385-D8B8-354B-AD7E-1E5A9A369287}</Project>
+      <Name>UnitTests</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
