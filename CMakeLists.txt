@@ -107,7 +107,7 @@ else()
   endif()
 endif()
 
-set(WARNINGS "${WARNINGS} -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=implicit-fallthrough")
+set(WARNINGS "${WARNINGS} -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=implicit-fallthrough -Wno-error=format-truncation")
 
 if(STATIC)
   set(Boost_USE_STATIC_LIBS ON)
