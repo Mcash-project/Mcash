@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/gtest/src/gtest-all.cc
+/mnt/c/Users/mateo/C++/Mcash/external/gtest/src/gtest-all.cc
 gtest/gtest.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/gtest/src/gtest/gtest.h
+/mnt/c/Users/mateo/C++/Mcash/external/gtest/src/gtest/gtest.h
 src/gtest.cc
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/gtest/src/src/gtest.cc
+/mnt/c/Users/mateo/C++/Mcash/external/gtest/src/src/gtest.cc
 src/gtest-death-test.cc
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/gtest/src/src/gtest-death-test.cc
+/mnt/c/Users/mateo/C++/Mcash/external/gtest/src/src/gtest-death-test.cc
 src/gtest-filepath.cc
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/gtest/src/src/gtest-filepath.cc
+/mnt/c/Users/mateo/C++/Mcash/external/gtest/src/src/gtest-filepath.cc
 src/gtest-port.cc
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/gtest/src/src/gtest-port.cc
+/mnt/c/Users/mateo/C++/Mcash/external/gtest/src/src/gtest-port.cc
 src/gtest-printers.cc
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/gtest/src/src/gtest-printers.cc
+/mnt/c/Users/mateo/C++/Mcash/external/gtest/src/src/gtest-printers.cc
 src/gtest-test-part.cc
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/gtest/src/src/gtest-test-part.cc
+/mnt/c/Users/mateo/C++/Mcash/external/gtest/src/src/gtest-test-part.cc
 src/gtest-typed-test.cc
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/gtest/src/src/gtest-typed-test.cc
+/mnt/c/Users/mateo/C++/Mcash/external/gtest/src/src/gtest-typed-test.cc
 
 external/gtest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

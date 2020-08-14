@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.obj"
-  "CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.obj"
-  "CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.obj"
-  "CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.obj"
-  "CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.obj"
+  "CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.o"
+  "CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.o"
+  "CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.o"
+  "CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.o"
+  "CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.o"
   "libRpc.a"
   "libRpc.pdb"
 )

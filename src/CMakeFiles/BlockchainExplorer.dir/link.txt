@@ -1,2 +1,2 @@
-C:/msys64/mingw64/bin/ar.exe qc libBlockchainExplorer.a  CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorer.cpp.obj CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.obj CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerErrors.cpp.obj
-C:/msys64/mingw64/bin/ranlib.exe libBlockchainExplorer.a
+/usr/bin/ar qc libBlockchainExplorer.a  CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorer.cpp.o CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.o CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerErrors.cpp.o
+/usr/bin/ranlib libBlockchainExplorer.a

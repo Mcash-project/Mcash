@@ -1,2 +1,2 @@
-C:/msys64/mingw64/bin/ar.exe qc libTestGenerator.a  CMakeFiles/TestGenerator.dir/TestGenerator/TestGenerator.cpp.obj
-C:/msys64/mingw64/bin/ranlib.exe libTestGenerator.a
+/usr/bin/ar qc libTestGenerator.a  CMakeFiles/TestGenerator.dir/TestGenerator/TestGenerator.cpp.o
+/usr/bin/ranlib libTestGenerator.a

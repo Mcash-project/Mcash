@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/Base58.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/Base58.cpp
 Base58.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/Base58.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/Base58.h
 assert.h
 -
 string
@@ -16,23 +16,23 @@ string
 vector
 -
 crypto/hash.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/crypto/hash.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/crypto/hash.h
 int-util.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/int-util.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/int-util.h
 Varint.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/Varint.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/Varint.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/Base58.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/Base58.h
 cstdint
 -
 string
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/BlockingQueue.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/BlockingQueue.cpp
 BlockingQueue.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/BlockingQueue.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/BlockingQueue.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/BlockingQueue.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/BlockingQueue.h
 atomic
 -
 condition_variable
@@ -44,11 +44,11 @@ mutex
 thread
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/CommandLine.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/CommandLine.cpp
 CommandLine.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/CommandLine.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/CommandLine.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/CommandLine.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/CommandLine.h
 iostream
 -
 type_traits
@@ -60,9 +60,9 @@ boost/program_options/options_description.hpp
 boost/program_options/variables_map.hpp
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/ConsoleHandler.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/ConsoleHandler.cpp
 ConsoleHandler.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/ConsoleHandler.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/ConsoleHandler.h
 iostream
 -
 iomanip
@@ -78,7 +78,7 @@ stdio.h
 boost/algorithm/string.hpp
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/ConsoleHandler.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/ConsoleHandler.h
 atomic
 -
 functional
@@ -92,13 +92,13 @@ thread
 vector
 -
 BlockingQueue.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/BlockingQueue.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/BlockingQueue.h
 ConsoleTools.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/ConsoleTools.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/ConsoleTools.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/ConsoleTools.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/ConsoleTools.cpp
 ConsoleTools.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/ConsoleTools.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/ConsoleTools.h
 stdio.h
 -
 Windows.h
@@ -110,35 +110,35 @@ iostream
 unistd.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/ConsoleTools.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/ConsoleTools.h
 cstdint
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/IInputStream.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/IInputStream.cpp
 IInputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/IInputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/IInputStream.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/IInputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/IInputStream.h
 cstddef
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/IOutputStream.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/IOutputStream.cpp
 IOutputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/IOutputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/IOutputStream.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/IOutputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/IOutputStream.h
 cstddef
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/JsonValue.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/JsonValue.cpp
 JsonValue.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/JsonValue.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/JsonValue.h
 iomanip
 -
 sstream
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/JsonValue.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/JsonValue.h
 cstddef
 -
 cstdint
@@ -150,19 +150,19 @@ string
 vector
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/Math.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/Math.cpp
 Math.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/Math.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/Math.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/Math.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/Math.h
 algorithm
 -
 vector
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/MemoryInputStream.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/MemoryInputStream.cpp
 MemoryInputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/MemoryInputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/MemoryInputStream.h
 algorithm
 -
 cassert
@@ -170,31 +170,31 @@ cassert
 cstring
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/MemoryInputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/MemoryInputStream.h
 IInputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/IInputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/IInputStream.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/PathTools.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/PathTools.cpp
 PathTools.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/PathTools.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/PathTools.h
 algorithm
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/PathTools.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/PathTools.h
 string
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/ScopeExit.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/ScopeExit.cpp
 ScopeExit.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/ScopeExit.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/ScopeExit.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/ScopeExit.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/ScopeExit.h
 functional
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/SignalHandler.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/SignalHandler.cpp
 SignalHandler.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/SignalHandler.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/SignalHandler.h
 mutex
 -
 iostream
@@ -206,41 +206,41 @@ signal.h
 cstring
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/SignalHandler.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/SignalHandler.h
 functional
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StdInputStream.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StdInputStream.cpp
 StdInputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StdInputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StdInputStream.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StdInputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StdInputStream.h
 istream
 -
 IInputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/IInputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/IInputStream.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StdOutputStream.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StdOutputStream.cpp
 StdOutputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StdOutputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StdOutputStream.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StdOutputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StdOutputStream.h
 ostream
 -
 IOutputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/IOutputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/IOutputStream.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StreamTools.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StreamTools.cpp
 StreamTools.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StreamTools.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StreamTools.h
 stdexcept
 -
 IInputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/IInputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/IInputStream.h
 IOutputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/IOutputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/IOutputStream.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StreamTools.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StreamTools.h
 cstdint
 -
 vector
@@ -248,35 +248,35 @@ vector
 string
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StringInputStream.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StringInputStream.cpp
 StringInputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StringInputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StringInputStream.h
 string.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StringInputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StringInputStream.h
 string
 -
 IInputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/IInputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/IInputStream.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StringOutputStream.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StringOutputStream.cpp
 StringOutputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StringOutputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StringOutputStream.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StringOutputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StringOutputStream.h
 string
 -
 IOutputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/IOutputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/IOutputStream.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StringTools.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StringTools.cpp
 StringTools.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StringTools.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StringTools.h
 fstream
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StringTools.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StringTools.h
 cstdint
 -
 sstream
@@ -286,27 +286,27 @@ stdexcept
 vector
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StringView.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StringView.cpp
 StringView.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StringView.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StringView.h
 limits
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/StringView.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/StringView.h
 cassert
 -
 string
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/Util.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/Util.cpp
 Util.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/Util.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/Util.h
 cstdio
 -
 boost/filesystem.hpp
 -
 CryptoNoteConfig.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/CryptoNoteConfig.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/CryptoNoteConfig.h
 windows.h
 -
 shlobj.h
@@ -316,13 +316,13 @@ strsafe.h
 sys/utsname.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/Util.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/Util.h
 string
 -
 system_error
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/Varint.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/Varint.h
 limits
 -
 sstream
@@ -334,19 +334,19 @@ type_traits
 utility
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/VectorOutputStream.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Common/VectorOutputStream.cpp
 VectorOutputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/VectorOutputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/VectorOutputStream.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/VectorOutputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/VectorOutputStream.h
 cstdint
 -
 vector
 -
 IOutputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/IOutputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/IOutputStream.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/int-util.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/int-util.h
 assert.h
 -
 stdbool.h

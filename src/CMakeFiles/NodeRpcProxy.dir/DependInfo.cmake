@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/NodeErrors.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/NodeRpcProxy.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.obj"
+  "/home/mateo/SYNC/C++/Mcash/src/NodeRpcProxy/NodeErrors.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/NodeRpcProxy/NodeRpcProxy.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,7 +21,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external"
   "version"
   "src/Platform/Linux"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.

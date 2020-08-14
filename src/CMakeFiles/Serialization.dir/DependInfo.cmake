@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/BinaryInputStreamSerializer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Serialization.dir/Serialization/BinaryInputStreamSerializer.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/BinaryOutputStreamSerializer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Serialization.dir/Serialization/BinaryOutputStreamSerializer.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/JsonInputStreamSerializer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Serialization.dir/Serialization/JsonInputStreamSerializer.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/JsonInputValueSerializer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Serialization.dir/Serialization/JsonInputValueSerializer.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/JsonOutputStreamSerializer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Serialization.dir/Serialization/JsonOutputStreamSerializer.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/KVBinaryInputStreamSerializer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Serialization.dir/Serialization/KVBinaryInputStreamSerializer.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/KVBinaryOutputStreamSerializer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Serialization.dir/Serialization/KVBinaryOutputStreamSerializer.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/MemoryStream.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Serialization.dir/Serialization/MemoryStream.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/SerializationOverloads.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Serialization.dir/Serialization/SerializationOverloads.cpp.obj"
+  "/home/mateo/SYNC/C++/Mcash/src/Serialization/BinaryInputStreamSerializer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Serialization.dir/Serialization/BinaryInputStreamSerializer.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Serialization/BinaryOutputStreamSerializer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Serialization.dir/Serialization/BinaryOutputStreamSerializer.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Serialization/JsonInputStreamSerializer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Serialization.dir/Serialization/JsonInputStreamSerializer.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Serialization/JsonInputValueSerializer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Serialization.dir/Serialization/JsonInputValueSerializer.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Serialization/JsonOutputStreamSerializer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Serialization.dir/Serialization/JsonOutputStreamSerializer.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Serialization/KVBinaryInputStreamSerializer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Serialization.dir/Serialization/KVBinaryInputStreamSerializer.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Serialization/KVBinaryOutputStreamSerializer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Serialization.dir/Serialization/KVBinaryOutputStreamSerializer.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Serialization/MemoryStream.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Serialization.dir/Serialization/MemoryStream.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Serialization/SerializationOverloads.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Serialization.dir/Serialization/SerializationOverloads.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -28,7 +28,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external"
   "version"
   "src/Platform/Linux"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.

@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: C:/Users/bmali/AppData/Roaming/Mcash Git/Mcash/external
-# Build directory: C:/Users/bmali/AppData/Roaming/Mcash Git/Mcash/external
+# Source directory: /home/mateo/SYNC/C++/Mcash/external
+# Build directory: /home/mateo/SYNC/C++/Mcash/external
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

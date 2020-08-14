@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SimpleWallet.dir/SimpleWallet/PasswordContainer.cpp.obj"
-  "CMakeFiles/SimpleWallet.dir/SimpleWallet/SimpleWallet.cpp.obj"
-  "libsimplewallet.dll.a"
-  "simplewallet.exe"
-  "simplewallet.exe.manifest"
+  "CMakeFiles/SimpleWallet.dir/SimpleWallet/PasswordContainer.cpp.o"
+  "CMakeFiles/SimpleWallet.dir/SimpleWallet/SimpleWallet.cpp.o"
+  "simplewallet"
   "simplewallet.pdb"
 )
 

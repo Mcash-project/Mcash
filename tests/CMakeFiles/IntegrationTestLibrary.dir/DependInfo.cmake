@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/IntegrationTestLib/BaseFunctionalTests.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/BaseFunctionalTests.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/IntegrationTestLib/InProcTestNode.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/InProcTestNode.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/IntegrationTestLib/Logger.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Logger.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/IntegrationTestLib/Process.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Process.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/IntegrationTestLib/RPCTestNode.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/RPCTestNode.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/IntegrationTestLib/TestNetwork.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestNetwork.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/IntegrationTestLib/TestWalletLegacy.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestWalletLegacy.cpp.obj"
+  "/home/mateo/SYNC/C++/Mcash/tests/IntegrationTestLib/BaseFunctionalTests.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/BaseFunctionalTests.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/IntegrationTestLib/InProcTestNode.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/InProcTestNode.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/IntegrationTestLib/Logger.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Logger.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/IntegrationTestLib/Process.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Process.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/IntegrationTestLib/RPCTestNode.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/RPCTestNode.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/IntegrationTestLib/TestNetwork.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestNetwork.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/IntegrationTestLib/TestWalletLegacy.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestWalletLegacy.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -29,7 +29,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external/gtest/include"
   "external/gtest"
   "tests/../version"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.

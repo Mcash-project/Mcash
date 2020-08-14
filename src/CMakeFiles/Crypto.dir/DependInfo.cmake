@@ -5,23 +5,23 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/blake256.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/blake256.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/chacha8.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/chacha8.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/crypto-ops-data.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/crypto-ops.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/groestl.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/groestl.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-extra-blake.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-extra-groestl.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-extra-jh.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-extra-skein.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/hash.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/jh.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/jh.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/keccak.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/keccak.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/oaes_lib.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/random.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/random.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/skein.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/skein.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/slow-hash.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/tree-hash.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.obj"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/blake256.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/blake256.c.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/chacha8.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/crypto-ops-data.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/crypto-ops.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/groestl.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/groestl.c.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/hash-extra-blake.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/hash-extra-groestl.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/hash-extra-jh.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/hash-extra-skein.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/hash.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/hash.c.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/jh.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/jh.c.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/keccak.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/keccak.c.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/oaes_lib.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/random.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/random.c.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/skein.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/skein.c.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/slow-hash.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/tree-hash.c" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -37,11 +37,10 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "external"
   "version"
   "src/Platform/Linux"
-  "src/platform/mingw"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/crypto.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/slow-hash.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/crypto/slow-hash.cpp.obj"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/crypto.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/crypto/slow-hash.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/crypto/slow-hash.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -57,7 +56,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external"
   "version"
   "src/Platform/Linux"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.

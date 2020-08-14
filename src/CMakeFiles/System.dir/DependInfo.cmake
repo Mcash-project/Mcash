@@ -4,21 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Platform/Linux/System/Dispatcher.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/System.dir/Platform/Linux/System/Dispatcher.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Platform/Linux/System/ErrorMessage.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/System.dir/Platform/Linux/System/ErrorMessage.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Platform/Linux/System/Ipv4Resolver.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/System.dir/Platform/Linux/System/Ipv4Resolver.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Platform/Linux/System/TcpConnection.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnection.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Platform/Linux/System/TcpConnector.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnector.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Platform/Linux/System/TcpListener.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/System.dir/Platform/Linux/System/TcpListener.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Platform/Linux/System/Timer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/System.dir/Platform/Linux/System/Timer.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/System/ContextGroup.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/System.dir/System/ContextGroup.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/System/ContextGroupTimeout.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/System.dir/System/ContextGroupTimeout.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/System/Event.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/System.dir/System/Event.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/System/EventLock.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/System.dir/System/EventLock.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/System/InterruptedException.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/System.dir/System/InterruptedException.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/System/Ipv4Address.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/System.dir/System/Ipv4Address.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/System/RemoteEventLock.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/System.dir/System/RemoteEventLock.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/System/TcpStream.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/System.dir/System/TcpStream.cpp.obj"
+  "/home/mateo/SYNC/C++/Mcash/src/Platform/Linux/System/Dispatcher.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/System.dir/Platform/Linux/System/Dispatcher.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Platform/Linux/System/ErrorMessage.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/System.dir/Platform/Linux/System/ErrorMessage.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Platform/Linux/System/Ipv4Resolver.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/System.dir/Platform/Linux/System/Ipv4Resolver.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Platform/Linux/System/TcpConnection.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnection.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Platform/Linux/System/TcpConnector.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnector.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Platform/Linux/System/TcpListener.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/System.dir/Platform/Linux/System/TcpListener.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Platform/Linux/System/Timer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/System.dir/Platform/Linux/System/Timer.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/System/ContextGroup.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/System.dir/System/ContextGroup.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/System/ContextGroupTimeout.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/System.dir/System/ContextGroupTimeout.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/System/Event.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/System.dir/System/Event.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/System/EventLock.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/System.dir/System/EventLock.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/System/InterruptedException.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/System.dir/System/InterruptedException.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/System/Ipv4Address.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/System.dir/System/Ipv4Address.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/System/RemoteEventLock.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/System.dir/System/RemoteEventLock.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/System/TcpStream.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/System.dir/System/TcpStream.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -34,7 +34,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external"
   "version"
   "src/Platform/Linux"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.

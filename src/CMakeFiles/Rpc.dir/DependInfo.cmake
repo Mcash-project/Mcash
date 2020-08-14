@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Rpc/HttpClient.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Rpc/HttpServer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Rpc/JsonRpc.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Rpc/RpcServer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Rpc/RpcServerConfig.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.obj"
+  "/home/mateo/SYNC/C++/Mcash/src/Rpc/HttpClient.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Rpc/HttpServer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Rpc/JsonRpc.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Rpc/RpcServer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Rpc/RpcServerConfig.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,7 +24,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external"
   "version"
   "src/Platform/Linux"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.

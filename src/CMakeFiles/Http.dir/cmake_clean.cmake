@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Http.dir/HTTP/HttpParser.cpp.obj"
-  "CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.obj"
-  "CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.obj"
-  "CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.obj"
+  "CMakeFiles/Http.dir/HTTP/HttpParser.cpp.o"
+  "CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.o"
+  "CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.o"
+  "CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.o"
   "libHttp.a"
   "libHttp.pdb"
 )

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/JsonRpcServer.dir/JsonRpcServer/JsonRpcServer.cpp.obj"
+  "CMakeFiles/JsonRpcServer.dir/JsonRpcServer/JsonRpcServer.cpp.o"
   "libJsonRpcServer.a"
   "libJsonRpcServer.pdb"
 )

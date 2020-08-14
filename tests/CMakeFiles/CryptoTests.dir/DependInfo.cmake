@@ -5,10 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/crypto/crypto-ops-data.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops-data.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/crypto/crypto-ops.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/crypto/hash.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/CryptoTests.dir/crypto/hash.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/crypto/random.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/CryptoTests.dir/crypto/random.c.obj"
+  "/home/mateo/SYNC/C++/Mcash/tests/crypto/crypto-ops-data.c" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops-data.c.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/crypto/crypto-ops.c" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops.c.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/crypto/hash.c" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/CryptoTests.dir/crypto/hash.c.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/crypto/random.c" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/CryptoTests.dir/crypto/random.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -27,11 +27,10 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "external/gtest/include"
   "external/gtest"
   "tests/../version"
-  "src/platform/mingw"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/crypto/crypto.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/CryptoTests.dir/crypto/crypto.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/crypto/main.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/CryptoTests.dir/crypto/main.cpp.obj"
+  "/home/mateo/SYNC/C++/Mcash/tests/crypto/crypto.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/CryptoTests.dir/crypto/crypto.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/crypto/main.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/CryptoTests.dir/crypto/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -50,7 +49,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external/gtest/include"
   "external/gtest"
   "tests/../version"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.

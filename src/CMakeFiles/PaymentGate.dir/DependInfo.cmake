@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/PaymentGate/NodeFactory.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/PaymentGate.dir/PaymentGate/NodeFactory.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/PaymentGate/PaymentServiceJsonRpcMessages.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcMessages.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/PaymentGate/PaymentServiceJsonRpcServer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcServer.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/PaymentGate/WalletFactory.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletFactory.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/PaymentGate/WalletService.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletService.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/PaymentGate/WalletServiceErrorCategory.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletServiceErrorCategory.cpp.obj"
+  "/home/mateo/SYNC/C++/Mcash/src/PaymentGate/NodeFactory.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/PaymentGate.dir/PaymentGate/NodeFactory.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/PaymentGate/PaymentServiceJsonRpcMessages.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcMessages.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/PaymentGate/PaymentServiceJsonRpcServer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcServer.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/PaymentGate/WalletFactory.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletFactory.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/PaymentGate/WalletService.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletService.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/PaymentGate/WalletServiceErrorCategory.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletServiceErrorCategory.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,7 +25,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external"
   "version"
   "src/Platform/Linux"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.

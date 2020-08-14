@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Transfers/BlockchainSynchronizer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Transfers/SynchronizationState.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Transfers/TransfersConsumer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Transfers/TransfersContainer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Transfers/TransfersSubscription.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Transfers/TransfersSynchronizer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.obj"
+  "/home/mateo/SYNC/C++/Mcash/src/Transfers/BlockchainSynchronizer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Transfers/SynchronizationState.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Transfers/TransfersConsumer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Transfers/TransfersContainer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Transfers/TransfersSubscription.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Transfers/TransfersSynchronizer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,7 +25,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external"
   "version"
   "src/Platform/Linux"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.

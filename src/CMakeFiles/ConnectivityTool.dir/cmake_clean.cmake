@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ConnectivityTool.dir/ConnectivityTool/ConnectivityTool.cpp.obj"
-  "connectivity_tool.exe"
-  "connectivity_tool.exe.manifest"
+  "CMakeFiles/ConnectivityTool.dir/ConnectivityTool/ConnectivityTool.cpp.o"
+  "connectivity_tool"
   "connectivity_tool.pdb"
-  "libconnectivity_tool.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

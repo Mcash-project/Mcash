@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/NodeRpcProxyTests.dir/NodeRpcProxyTests/NodeRpcProxyTests.cpp.obj"
-  "libnode_rpc_proxy_tests.dll.a"
-  "node_rpc_proxy_tests.exe"
-  "node_rpc_proxy_tests.exe.manifest"
+  "CMakeFiles/NodeRpcProxyTests.dir/NodeRpcProxyTests/NodeRpcProxyTests.cpp.o"
+  "node_rpc_proxy_tests"
   "node_rpc_proxy_tests.pdb"
 )
 

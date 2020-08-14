@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TestGenerator.dir/TestGenerator/TestGenerator.cpp.obj"
+  "CMakeFiles/TestGenerator.dir/TestGenerator/TestGenerator.cpp.o"
   "libTestGenerator.a"
   "libTestGenerator.pdb"
 )

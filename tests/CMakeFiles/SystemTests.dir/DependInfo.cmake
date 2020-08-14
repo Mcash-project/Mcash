@@ -4,22 +4,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/System/ContextGroupTests.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/SystemTests.dir/System/ContextGroupTests.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/System/ContextGroupTimeoutTests.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/SystemTests.dir/System/ContextGroupTimeoutTests.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/System/ContextTests.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/SystemTests.dir/System/ContextTests.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/System/DispatcherTests.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/SystemTests.dir/System/DispatcherTests.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/System/ErrorMessageTests.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/SystemTests.dir/System/ErrorMessageTests.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/System/EventLockTests.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/SystemTests.dir/System/EventLockTests.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/System/EventTests.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/SystemTests.dir/System/EventTests.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/System/Ipv4AddressTests.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/SystemTests.dir/System/Ipv4AddressTests.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/System/Ipv4ResolverTests.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/SystemTests.dir/System/Ipv4ResolverTests.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/System/OperationTimeoutTests.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/SystemTests.dir/System/OperationTimeoutTests.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/System/RemoteContextTests.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/SystemTests.dir/System/RemoteContextTests.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/System/TcpConnectionTests.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/SystemTests.dir/System/TcpConnectionTests.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/System/TcpConnectorTests.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/SystemTests.dir/System/TcpConnectorTests.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/System/TcpListenerTests.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/SystemTests.dir/System/TcpListenerTests.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/System/TimerTests.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/SystemTests.dir/System/TimerTests.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/System/main.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/SystemTests.dir/System/main.cpp.obj"
+  "/home/mateo/SYNC/C++/Mcash/tests/System/ContextGroupTests.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/SystemTests.dir/System/ContextGroupTests.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/System/ContextGroupTimeoutTests.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/SystemTests.dir/System/ContextGroupTimeoutTests.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/System/ContextTests.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/SystemTests.dir/System/ContextTests.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/System/DispatcherTests.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/SystemTests.dir/System/DispatcherTests.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/System/ErrorMessageTests.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/SystemTests.dir/System/ErrorMessageTests.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/System/EventLockTests.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/SystemTests.dir/System/EventLockTests.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/System/EventTests.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/SystemTests.dir/System/EventTests.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/System/Ipv4AddressTests.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/SystemTests.dir/System/Ipv4AddressTests.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/System/Ipv4ResolverTests.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/SystemTests.dir/System/Ipv4ResolverTests.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/System/OperationTimeoutTests.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/SystemTests.dir/System/OperationTimeoutTests.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/System/RemoteContextTests.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/SystemTests.dir/System/RemoteContextTests.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/System/TcpConnectionTests.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/SystemTests.dir/System/TcpConnectionTests.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/System/TcpConnectorTests.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/SystemTests.dir/System/TcpConnectorTests.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/System/TcpListenerTests.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/SystemTests.dir/System/TcpListenerTests.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/System/TimerTests.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/SystemTests.dir/System/TimerTests.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/tests/System/main.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/SystemTests.dir/System/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -38,14 +38,13 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external/gtest/include"
   "external/gtest"
   "tests/../version"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/System.dir/DependInfo.cmake"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/System.dir/DependInfo.cmake"
+  "/home/mateo/SYNC/C++/Mcash/external/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/mateo/SYNC/C++/Mcash/external/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

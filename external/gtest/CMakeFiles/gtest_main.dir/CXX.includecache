@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/gtest/src/gtest_main.cc
+/mnt/c/Users/mateo/C++/Mcash/external/gtest/src/gtest_main.cc
 stdio.h
 -
 gtest/gtest.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/gtest/src/gtest/gtest.h
+/mnt/c/Users/mateo/C++/Mcash/external/gtest/src/gtest/gtest.h
 
 external/gtest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

@@ -1,11 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.obj"
-  "CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.obj"
-  "CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.obj"
-  "CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.obj"
-  "libtransfers_tests.dll.a"
-  "transfers_tests.exe"
-  "transfers_tests.exe.manifest"
+  "CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o"
+  "CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o"
+  "CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o"
+  "CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o"
+  "transfers_tests"
   "transfers_tests.pdb"
 )
 

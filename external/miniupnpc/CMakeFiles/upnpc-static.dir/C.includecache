@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/bsdqueue.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/bsdqueue.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/connecthostport.c
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/codelength.h
+
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/connecthostport.c
 string.h
 -
 stdio.h
@@ -38,23 +40,23 @@ sys/socket.h
 sys/select.h
 -
 connecthostport.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/connecthostport.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/connecthostport.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/connecthostport.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/connecthostport.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/declspec.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/declspec.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/igd_desc_parse.c
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/igd_desc_parse.c
 igd_desc_parse.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/igd_desc_parse.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/igd_desc_parse.h
 stdio.h
 -
 string.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/igd_desc_parse.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/igd_desc_parse.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/minisoap.c
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/minisoap.c
 stdio.h
 -
 string.h
@@ -70,17 +72,51 @@ sys/types.h
 sys/socket.h
 -
 minisoap.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/minisoap.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/minisoap.h
 miniupnpcstrings.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniupnpcstrings.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniupnpcstrings.h
 stdlib.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/minisoap.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/minisoap.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/minissdpc.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/minissdpc.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/types.h
+-
+winsock2.h
+-
+ws2tcpip.h
+-
+io.h
+-
+winsock.h
+-
+stdint.h
+-
+sys/socket.h
+-
+sys/socket.h
+-
+sys/un.h
+-
+minissdpc.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/minissdpc.h
+miniupnpc.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniupnpc.h
+codelength.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/codelength.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniupnpc.c
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/minissdpc.h
+
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniupnpc.c
 stdlib.h
 -
 stdio.h
@@ -122,31 +158,31 @@ errno.h
 sys/time.h
 -
 miniupnpc.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniupnpc.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniupnpc.h
 minissdpc.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/minissdpc.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/minissdpc.h
 miniwget.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniwget.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniwget.h
 minisoap.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/minisoap.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/minisoap.h
 minixml.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/minixml.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/minixml.h
 upnpcommands.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnpcommands.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/upnpcommands.h
 connecthostport.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/connecthostport.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/connecthostport.h
 receivedata.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/receivedata.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/receivedata.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniupnpc.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniupnpc.h
 declspec.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/declspec.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/declspec.h
 igd_desc_parse.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/igd_desc_parse.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/igd_desc_parse.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniupnpctypes.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniupnpctypes.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniwget.c
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniwget.c
 stdio.h
 -
 stdlib.h
@@ -178,47 +214,47 @@ net/if.h
 netdb.h
 -
 miniupnpcstrings.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniupnpcstrings.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniupnpcstrings.h
 miniwget.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniwget.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniwget.h
 connecthostport.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/connecthostport.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/connecthostport.h
 receivedata.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/receivedata.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/receivedata.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniwget.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniwget.h
 declspec.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/declspec.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/declspec.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/minixml.c
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/minixml.c
 string.h
 -
 minixml.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/minixml.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/minixml.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/minixml.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/minixml.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/portlistingparse.c
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/portlistingparse.c
 string.h
 -
 stdlib.h
 -
 portlistingparse.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/portlistingparse.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/portlistingparse.h
 minixml.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/minixml.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/minixml.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/portlistingparse.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/portlistingparse.h
 declspec.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/declspec.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/declspec.h
 miniupnpctypes.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniupnpctypes.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniupnpctypes.h
 bsdqueue.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/bsdqueue.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/bsdqueue.h
 sys/queue.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/receivedata.c
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/receivedata.c
 stdio.h
 -
 winsock2.h
@@ -238,11 +274,11 @@ poll.h
 errno.h
 -
 receivedata.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/receivedata.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/receivedata.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/receivedata.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/receivedata.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnpc.c
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/upnpc.c
 stdio.h
 -
 stdlib.h
@@ -256,15 +292,15 @@ winsock2.h
 netinet/in.h
 -
 miniwget.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniwget.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniwget.h
 miniupnpc.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniupnpc.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniupnpc.h
 upnpcommands.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnpcommands.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/upnpcommands.h
 upnperrors.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnperrors.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/upnperrors.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnpcommands.c
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/upnpcommands.c
 stdlib.h
 -
 stdio.h
@@ -272,37 +308,37 @@ stdio.h
 string.h
 -
 upnpcommands.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnpcommands.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/upnpcommands.h
 miniupnpc.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniupnpc.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniupnpc.h
 portlistingparse.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/portlistingparse.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/portlistingparse.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnpcommands.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/upnpcommands.h
 upnpreplyparse.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnpreplyparse.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/upnpreplyparse.h
 portlistingparse.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/portlistingparse.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/portlistingparse.h
 declspec.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/declspec.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/declspec.h
 miniupnpctypes.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniupnpctypes.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniupnpctypes.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnperrors.c
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/upnperrors.c
 string.h
 -
 upnperrors.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnperrors.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/upnperrors.h
 upnpcommands.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnpcommands.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/upnpcommands.h
 miniupnpc.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniupnpc.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/miniupnpc.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnperrors.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/upnperrors.h
 declspec.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/declspec.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/declspec.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnpreplyparse.c
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/upnpreplyparse.c
 stdlib.h
 -
 string.h
@@ -310,13 +346,13 @@ string.h
 stdio.h
 -
 upnpreplyparse.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnpreplyparse.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/upnpreplyparse.h
 minixml.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/minixml.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/minixml.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnpreplyparse.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/upnpreplyparse.h
 bsdqueue.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/bsdqueue.h
+/mnt/c/Users/mateo/C++/Mcash/external/miniupnpc/bsdqueue.h
 sys/queue.h
 -
 

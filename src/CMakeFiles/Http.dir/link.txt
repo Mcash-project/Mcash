@@ -1,2 +1,2 @@
-C:/msys64/mingw64/bin/ar.exe qc libHttp.a  CMakeFiles/Http.dir/HTTP/HttpParser.cpp.obj CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.obj CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.obj CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.obj
-C:/msys64/mingw64/bin/ranlib.exe libHttp.a
+/usr/bin/ar qc libHttp.a  CMakeFiles/Http.dir/HTTP/HttpParser.cpp.o CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.o CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.o CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.o
+/usr/bin/ranlib libHttp.a

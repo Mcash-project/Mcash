@@ -1,12 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Miner.dir/Miner/BlockchainMonitor.cpp.obj"
-  "CMakeFiles/Miner.dir/Miner/Miner.cpp.obj"
-  "CMakeFiles/Miner.dir/Miner/MinerManager.cpp.obj"
-  "CMakeFiles/Miner.dir/Miner/MiningConfig.cpp.obj"
-  "CMakeFiles/Miner.dir/Miner/main.cpp.obj"
-  "libminer.dll.a"
-  "miner.exe"
-  "miner.exe.manifest"
+  "CMakeFiles/Miner.dir/Miner/BlockchainMonitor.cpp.o"
+  "CMakeFiles/Miner.dir/Miner/Miner.cpp.o"
+  "CMakeFiles/Miner.dir/Miner/MinerManager.cpp.o"
+  "CMakeFiles/Miner.dir/Miner/MiningConfig.cpp.o"
+  "CMakeFiles/Miner.dir/Miner/main.cpp.o"
+  "miner"
   "miner.pdb"
 )
 

@@ -4,12 +4,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/PerformanceTests/main.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/PerformanceTests.dir/PerformanceTests/main.cpp.obj"
+  "/home/mateo/SYNC/C++/Mcash/tests/PerformanceTests/main.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/PerformanceTests.dir/PerformanceTests/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BOOST_ALL_NO_LIB"
+  "BOOST_ATOMIC_DYN_LINK"
+  "BOOST_CHRONO_DYN_LINK"
+  "BOOST_DATE_TIME_DYN_LINK"
+  "BOOST_FILESYSTEM_DYN_LINK"
+  "BOOST_PROGRAM_OPTIONS_DYN_LINK"
+  "BOOST_REGEX_DYN_LINK"
+  "BOOST_SERIALIZATION_DYN_LINK"
+  "BOOST_SYSTEM_DYN_LINK"
+  "BOOST_THREAD_DYN_LINK"
   "STATICLIB"
   )
 
@@ -23,16 +33,15 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external/gtest/include"
   "external/gtest"
   "tests/../version"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Serialization.dir/DependInfo.cmake"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Logging.dir/DependInfo.cmake"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Common.dir/DependInfo.cmake"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
+  "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
+  "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Serialization.dir/DependInfo.cmake"
+  "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Logging.dir/DependInfo.cmake"
+  "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Common.dir/DependInfo.cmake"
+  "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

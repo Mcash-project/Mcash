@@ -1,12 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PaymentGateService.dir/PaymentGateService/ConfigurationManager.cpp.obj"
-  "CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentGateService.cpp.obj"
-  "CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentServiceConfiguration.cpp.obj"
-  "CMakeFiles/PaymentGateService.dir/PaymentGateService/RpcNodeConfiguration.cpp.obj"
-  "CMakeFiles/PaymentGateService.dir/PaymentGateService/main.cpp.obj"
-  "libwalletd.dll.a"
-  "walletd.exe"
-  "walletd.exe.manifest"
+  "CMakeFiles/PaymentGateService.dir/PaymentGateService/ConfigurationManager.cpp.o"
+  "CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentGateService.cpp.o"
+  "CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentServiceConfiguration.cpp.o"
+  "CMakeFiles/PaymentGateService.dir/PaymentGateService/RpcNodeConfiguration.cpp.o"
+  "CMakeFiles/PaymentGateService.dir/PaymentGateService/main.cpp.o"
+  "walletd"
   "walletd.pdb"
 )
 

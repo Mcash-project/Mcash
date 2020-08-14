@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/P2p/IP2pNodeInternal.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/P2p/LevinProtocol.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/P2p/NetNode.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/P2p/NetNodeConfig.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/P2p/P2pConnectionProxy.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/P2p/P2pContext.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/P2p/P2pContextOwner.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/P2p/P2pInterfaces.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/P2p/P2pNode.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/P2p/P2pNodeConfig.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/P2p/PeerListManager.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.obj"
+  "/home/mateo/SYNC/C++/Mcash/src/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/P2p/IP2pNodeInternal.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/P2p/LevinProtocol.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/P2p/NetNode.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/P2p/NetNodeConfig.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/P2p/P2pConnectionProxy.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/P2p/P2pContext.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/P2p/P2pContextOwner.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/P2p/P2pInterfaces.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/P2p/P2pNode.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/P2p/P2pNodeConfig.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/P2p/PeerListManager.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -31,7 +31,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external"
   "version"
   "src/Platform/Linux"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.

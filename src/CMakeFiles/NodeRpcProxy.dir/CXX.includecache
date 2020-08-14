@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/NodeErrors.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/NodeRpcProxy/NodeErrors.cpp
 NodeErrors.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/NodeErrors.h
+/mnt/c/Users/mateo/C++/Mcash/src/NodeRpcProxy/NodeErrors.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/NodeErrors.h
+/mnt/c/Users/mateo/C++/Mcash/src/NodeRpcProxy/NodeErrors.h
 string
 -
 system_error
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/NodeRpcProxy.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/NodeRpcProxy/NodeRpcProxy.cpp
 NodeRpcProxy.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/NodeRpcProxy.h
+/mnt/c/Users/mateo/C++/Mcash/src/NodeRpcProxy/NodeRpcProxy.h
 NodeErrors.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/NodeErrors.h
+/mnt/c/Users/mateo/C++/Mcash/src/NodeRpcProxy/NodeErrors.h
 atomic
 -
 system_error
@@ -44,19 +44,19 @@ System/Timer.h
 CryptoNoteCore/TransactionApi.h
 -
 Common/StringTools.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/Common/StringTools.h
+/mnt/c/Users/mateo/C++/Mcash/src/NodeRpcProxy/Common/StringTools.h
 CryptoNoteCore/CryptoNoteBasicImpl.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/CryptoNoteCore/CryptoNoteBasicImpl.h
+/mnt/c/Users/mateo/C++/Mcash/src/NodeRpcProxy/CryptoNoteCore/CryptoNoteBasicImpl.h
 CryptoNoteCore/CryptoNoteTools.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/CryptoNoteCore/CryptoNoteTools.h
+/mnt/c/Users/mateo/C++/Mcash/src/NodeRpcProxy/CryptoNoteCore/CryptoNoteTools.h
 Rpc/CoreRpcServerCommandsDefinitions.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/Rpc/CoreRpcServerCommandsDefinitions.h
+/mnt/c/Users/mateo/C++/Mcash/src/NodeRpcProxy/Rpc/CoreRpcServerCommandsDefinitions.h
 Rpc/HttpClient.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/Rpc/HttpClient.h
+/mnt/c/Users/mateo/C++/Mcash/src/NodeRpcProxy/Rpc/HttpClient.h
 Rpc/JsonRpc.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/Rpc/JsonRpc.h
+/mnt/c/Users/mateo/C++/Mcash/src/NodeRpcProxy/Rpc/JsonRpc.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/NodeRpcProxy.h
+/mnt/c/Users/mateo/C++/Mcash/src/NodeRpcProxy/NodeRpcProxy.h
 atomic
 -
 condition_variable
@@ -70,9 +70,9 @@ thread
 unordered_set
 -
 Common/ObserverManager.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/Common/ObserverManager.h
+/mnt/c/Users/mateo/C++/Mcash/src/NodeRpcProxy/Common/ObserverManager.h
 INode.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/NodeRpcProxy/INode.h
+/mnt/c/Users/mateo/C++/Mcash/src/NodeRpcProxy/INode.h
 
 include/BlockchainExplorerData.h
 array

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/JsonValue.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/JsonValue.h
 cstddef
 -
 cstdint
@@ -18,9 +18,9 @@ string
 vector
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/BinaryInputStreamSerializer.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/BinaryInputStreamSerializer.cpp
 BinaryInputStreamSerializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/BinaryInputStreamSerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/BinaryInputStreamSerializer.h
 algorithm
 -
 cassert
@@ -30,35 +30,35 @@ stdexcept
 Common/StreamTools.h
 -
 SerializationOverloads.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/SerializationOverloads.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/SerializationOverloads.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/BinaryInputStreamSerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/BinaryInputStreamSerializer.h
 Common/IInputStream.h
 -
 ISerializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/ISerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/ISerializer.h
 SerializationOverloads.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/SerializationOverloads.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/SerializationOverloads.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/BinaryOutputStreamSerializer.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/BinaryOutputStreamSerializer.cpp
 BinaryOutputStreamSerializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/BinaryOutputStreamSerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/BinaryOutputStreamSerializer.h
 cassert
 -
 stdexcept
 -
 Common/StreamTools.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/Common/StreamTools.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/Common/StreamTools.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/BinaryOutputStreamSerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/BinaryOutputStreamSerializer.h
 Common/IOutputStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/Common/IOutputStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/Common/IOutputStream.h
 ISerializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/ISerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/ISerializer.h
 SerializationOverloads.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/SerializationOverloads.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/SerializationOverloads.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/ISerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/ISerializer.h
 string
 -
 cstdint
@@ -66,55 +66,55 @@ cstdint
 Common/StringView.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/JsonInputStreamSerializer.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/JsonInputStreamSerializer.cpp
 Serialization/JsonInputStreamSerializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/Serialization/JsonInputStreamSerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/Serialization/JsonInputStreamSerializer.h
 ctype.h
 -
 exception
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/JsonInputValueSerializer.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/JsonInputValueSerializer.cpp
 JsonInputValueSerializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/JsonInputValueSerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/JsonInputValueSerializer.h
 cassert
 -
 stdexcept
 -
 Common/StringTools.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/Common/StringTools.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/Common/StringTools.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/JsonInputValueSerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/JsonInputValueSerializer.h
 Common/JsonValue.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/Common/JsonValue.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/Common/JsonValue.h
 ISerializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/ISerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/ISerializer.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/JsonOutputStreamSerializer.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/JsonOutputStreamSerializer.cpp
 JsonOutputStreamSerializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/JsonOutputStreamSerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/JsonOutputStreamSerializer.h
 cassert
 -
 stdexcept
 -
 Common/StringTools.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/Common/StringTools.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/Common/StringTools.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/JsonOutputStreamSerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/JsonOutputStreamSerializer.h
 iostream
 -
 ../Common/JsonValue.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/JsonValue.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/JsonValue.h
 ISerializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/ISerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/ISerializer.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/KVBinaryCommon.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/KVBinaryCommon.h
 cstdint
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/KVBinaryInputStreamSerializer.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/KVBinaryInputStreamSerializer.cpp
 KVBinaryInputStreamSerializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/KVBinaryInputStreamSerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/KVBinaryInputStreamSerializer.h
 algorithm
 -
 cassert
@@ -126,21 +126,21 @@ stdexcept
 Common/StreamTools.h
 -
 KVBinaryCommon.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/KVBinaryCommon.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/KVBinaryCommon.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/KVBinaryInputStreamSerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/KVBinaryInputStreamSerializer.h
 Common/IInputStream.h
 -
 ISerializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/ISerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/ISerializer.h
 JsonInputValueSerializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/JsonInputValueSerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/JsonInputValueSerializer.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/KVBinaryOutputStreamSerializer.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/KVBinaryOutputStreamSerializer.cpp
 KVBinaryOutputStreamSerializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/KVBinaryOutputStreamSerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/KVBinaryOutputStreamSerializer.h
 KVBinaryCommon.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/KVBinaryCommon.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/KVBinaryCommon.h
 cassert
 -
 stdexcept
@@ -148,21 +148,21 @@ stdexcept
 Common/StreamTools.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/KVBinaryOutputStreamSerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/KVBinaryOutputStreamSerializer.h
 vector
 -
 Common/IOutputStream.h
 -
 ISerializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/ISerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/ISerializer.h
 MemoryStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/MemoryStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/MemoryStream.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/MemoryStream.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/MemoryStream.cpp
 MemoryStream.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/MemoryStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/MemoryStream.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/MemoryStream.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/MemoryStream.h
 algorithm
 -
 cstdint
@@ -174,15 +174,15 @@ vector
 Common/IOutputStream.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/SerializationOverloads.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/SerializationOverloads.cpp
 Serialization/SerializationOverloads.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/Serialization/SerializationOverloads.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/Serialization/SerializationOverloads.h
 limits
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/SerializationOverloads.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/SerializationOverloads.h
 ISerializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Serialization/ISerializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/Serialization/ISerializer.h
 array
 -
 cstring

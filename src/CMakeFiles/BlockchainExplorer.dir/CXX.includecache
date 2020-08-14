@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/BlockchainExplorer.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/BlockchainExplorer.cpp
 BlockchainExplorer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/BlockchainExplorer.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/BlockchainExplorer.h
 future
 -
 functional
@@ -16,15 +16,15 @@ functional
 memory
 -
 CryptoNoteCore/CryptoNoteFormatUtils.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/CryptoNoteCore/CryptoNoteFormatUtils.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/CryptoNoteCore/CryptoNoteFormatUtils.h
 CryptoNoteConfig.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/CryptoNoteConfig.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/CryptoNoteConfig.h
 BlockchainExplorerErrors.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/BlockchainExplorerErrors.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/BlockchainExplorerErrors.h
 ITransaction.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/ITransaction.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/ITransaction.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/BlockchainExplorer.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/BlockchainExplorer.h
 mutex
 -
 atomic
@@ -32,53 +32,53 @@ atomic
 unordered_set
 -
 IBlockchainExplorer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/IBlockchainExplorer.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/IBlockchainExplorer.h
 INode.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/INode.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/INode.h
 Common/ObserverManager.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/Common/ObserverManager.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/Common/ObserverManager.h
 BlockchainExplorerErrors.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/BlockchainExplorerErrors.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/BlockchainExplorerErrors.h
 Wallet/WalletAsyncContextCounter.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/Wallet/WalletAsyncContextCounter.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/Wallet/WalletAsyncContextCounter.h
 Logging/LoggerRef.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/Logging/LoggerRef.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/Logging/LoggerRef.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp
 BlockchainExplorerDataBuilder.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/BlockchainExplorerDataBuilder.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/BlockchainExplorerDataBuilder.h
 boost/utility/value_init.hpp
 -
 boost/range/combine.hpp
 -
 Common/StringTools.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/Common/StringTools.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/Common/StringTools.h
 CryptoNoteCore/CryptoNoteFormatUtils.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/CryptoNoteCore/CryptoNoteFormatUtils.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/CryptoNoteCore/CryptoNoteFormatUtils.h
 CryptoNoteCore/CryptoNoteTools.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/CryptoNoteCore/CryptoNoteTools.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/CryptoNoteCore/CryptoNoteTools.h
 CryptoNoteCore/TransactionExtra.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/CryptoNoteCore/TransactionExtra.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/CryptoNoteCore/TransactionExtra.h
 CryptoNoteConfig.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/CryptoNoteConfig.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/CryptoNoteConfig.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/BlockchainExplorerDataBuilder.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/BlockchainExplorerDataBuilder.h
 vector
 -
 array
 -
 CryptoNoteProtocol/ICryptoNoteProtocolQuery.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/CryptoNoteProtocol/ICryptoNoteProtocolQuery.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/CryptoNoteProtocol/ICryptoNoteProtocolQuery.h
 CryptoNoteCore/ICore.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/CryptoNoteCore/ICore.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/CryptoNoteCore/ICore.h
 BlockchainExplorerData.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/BlockchainExplorerData.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/BlockchainExplorerData.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/BlockchainExplorerErrors.cpp
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/BlockchainExplorerErrors.cpp
 BlockchainExplorerErrors.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/BlockchainExplorerErrors.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/BlockchainExplorerErrors.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/BlockchainExplorer/BlockchainExplorerErrors.h
+/mnt/c/Users/mateo/C++/Mcash/src/BlockchainExplorer/BlockchainExplorerErrors.h
 string
 -
 system_error

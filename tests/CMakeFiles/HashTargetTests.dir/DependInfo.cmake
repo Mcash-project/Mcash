@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/HashTarget.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/tests/CMakeFiles/HashTargetTests.dir/HashTarget.cpp.obj"
+  "/home/mateo/SYNC/C++/Mcash/tests/HashTarget.cpp" "/home/mateo/SYNC/C++/Mcash/tests/CMakeFiles/HashTargetTests.dir/HashTarget.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,13 +23,12 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external/gtest/include"
   "external/gtest"
   "tests/../version"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
+  "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
+  "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

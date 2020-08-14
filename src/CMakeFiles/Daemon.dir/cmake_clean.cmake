@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Daemon.dir/Daemon/Daemon.cpp.obj"
-  "CMakeFiles/Daemon.dir/Daemon/DaemonCommandsHandler.cpp.obj"
-  "Mcashd.exe"
-  "Mcashd.exe.manifest"
+  "CMakeFiles/Daemon.dir/Daemon/Daemon.cpp.o"
+  "CMakeFiles/Daemon.dir/Daemon/DaemonCommandsHandler.cpp.o"
+  "Mcashd"
   "Mcashd.pdb"
-  "libMcashd.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

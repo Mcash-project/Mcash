@@ -4,24 +4,27 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/connecthostport.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/igd_desc_parse.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/minisoap.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniupnpc.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/miniwget.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/minixml.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/portlistingparse.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/receivedata.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnpc.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnpcommands.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnperrors.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/upnpreplyparse.c" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.obj"
+  "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/connecthostport.c" "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o"
+  "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/igd_desc_parse.c" "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o"
+  "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/minisoap.c" "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o"
+  "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/minissdpc.c" "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o"
+  "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/miniupnpc.c" "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o"
+  "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/miniwget.c" "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o"
+  "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/minixml.c" "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o"
+  "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/portlistingparse.c" "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o"
+  "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/receivedata.c" "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o"
+  "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/upnpc.c" "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o"
+  "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/upnpcommands.c" "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o"
+  "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/upnperrors.c" "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o"
+  "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/upnpreplyparse.c" "/home/mateo/SYNC/C++/Mcash/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
-  "_WIN32_WINNT=0x0501"
+  "MINIUPNPC_SET_SOCKET_TIMEOUT"
+  "_BSD_SOURCE"
+  "_POSIX_C_SOURCE=1"
   )
 
 # The include file search paths:
@@ -32,7 +35,6 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "version"
   "src/Platform/Linux"
   "."
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.obj"
-  "CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.obj"
+  "CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o"
+  "CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o"
   "libNodeRpcProxy.a"
   "libNodeRpcProxy.pdb"
 )

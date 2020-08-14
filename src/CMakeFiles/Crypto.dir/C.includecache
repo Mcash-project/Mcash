@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/static_assert.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/static_assert.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/aesb.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/aesb.h
 stdint.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/blake256.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/blake256.c
 string.h
 -
 stdio.h
@@ -20,13 +20,13 @@ stdio.h
 stdint.h
 -
 blake256.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/blake256.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/blake256.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/blake256.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/blake256.h
 stdint.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/chacha8.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/chacha8.c
 memory.h
 -
 stdio.h
@@ -34,11 +34,11 @@ stdio.h
 sys/param.h
 -
 chacha8.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/chacha8.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/chacha8.h
 Common/int-util.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/Common/int-util.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/Common/int-util.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/chacha8.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/chacha8.h
 stdint.h
 -
 stddef.h
@@ -48,25 +48,25 @@ memory.h
 string
 -
 hash.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/hash.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/crypto-ops-data.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/crypto-ops-data.c
 stdint.h
 -
 crypto-ops.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/crypto-ops.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/crypto-ops.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/crypto-ops.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/crypto-ops.c
 assert.h
 -
 stdint.h
 -
 crypto-ops.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/crypto-ops.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/crypto-ops.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/crypto-ops.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/crypto-ops.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/generic-ops.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/generic-ops.h
 cstddef
 -
 cstring
@@ -74,43 +74,43 @@ cstring
 functional
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/groestl.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/groestl.c
 groestl.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/groestl.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/groestl.h
 groestl_tables.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/groestl_tables.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/groestl_tables.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/groestl.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/groestl.h
 crypto_uint8.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/crypto_uint8.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/crypto_uint8.h
 crypto_uint32.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/crypto_uint32.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/crypto_uint32.h
 crypto_uint64.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/crypto_uint64.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/crypto_uint64.h
 crypto_hash.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/crypto_hash.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/crypto_hash.h
 stdint.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/groestl_tables.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/groestl_tables.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-extra-blake.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/hash-extra-blake.c
 stddef.h
 -
 stdint.h
 -
 blake256.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/blake256.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/blake256.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-extra-groestl.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/hash-extra-groestl.c
 stddef.h
 -
 stdint.h
 -
 groestl.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/groestl.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/groestl.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-extra-jh.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/hash-extra-jh.c
 assert.h
 -
 stddef.h
@@ -120,21 +120,21 @@ stdint.h
 string.h
 -
 jh.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/jh.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/jh.h
 hash-ops.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-ops.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/hash-ops.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-extra-skein.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/hash-extra-skein.c
 stddef.h
 -
 stdint.h
 -
 hash-ops.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-ops.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/hash-ops.h
 skein.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/skein.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/skein.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-ops.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/hash-ops.h
 assert.h
 -
 stdbool.h
@@ -144,11 +144,11 @@ stddef.h
 stdint.h
 -
 ../Common/static_assert.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Common/static_assert.h
+/mnt/c/Users/mateo/C++/Mcash/src/Common/static_assert.h
 Common/int-util.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/Common/int-util.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/Common/int-util.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/hash.c
 stddef.h
 -
 stdint.h
@@ -156,51 +156,51 @@ stdint.h
 string.h
 -
 hash-ops.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-ops.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/hash-ops.h
 keccak.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/keccak.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/keccak.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/hash.h
 stddef.h
 -
 CryptoTypes.h
 -
 generic-ops.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/generic-ops.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/generic-ops.h
 hash-ops.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-ops.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/hash-ops.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/initializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/initializer.h
 assert.h
 -
 stdlib.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/jh.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/jh.c
 jh.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/jh.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/jh.h
 stdint.h
 -
 string.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/jh.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/jh.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/keccak.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/keccak.c
 hash-ops.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-ops.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/hash-ops.h
 keccak.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/keccak.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/keccak.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/keccak.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/keccak.h
 stdint.h
 -
 string.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/oaes_config.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/oaes_config.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/oaes_lib.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/oaes_lib.c
 stddef.h
 -
 time.h
@@ -224,19 +224,19 @@ sys/types.h
 unistd.h
 -
 oaes_config.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/oaes_config.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/oaes_config.h
 oaes_lib.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/oaes_lib.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/oaes_lib.h
 rand.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/rand.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/rand.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/oaes_lib.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/oaes_lib.h
 stdint.h
 -
 stdlib.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/random.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/random.c
 assert.h
 -
 stddef.h
@@ -244,11 +244,11 @@ stddef.h
 string.h
 -
 hash-ops.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-ops.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/hash-ops.h
 initializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/initializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/initializer.h
 random.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/random.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/random.h
 windows.h
 -
 wincrypt.h
@@ -268,35 +268,35 @@ sys/types.h
 unistd.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/random.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/random.h
 stddef.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/skein.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/skein.c
 stddef.h
 -
 string.h
 -
 skein.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/skein.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/skein.h
 assert.h
 -
 assert.h
 -
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/skein.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/skein.h
 skein_port.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/skein_port.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/skein_port.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/skein_port.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/skein_port.h
 limits.h
 -
 stdint.h
 -
 Common/int-util.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/Common/int-util.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/Common/int-util.h
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/slow-hash.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/slow-hash.c
 stddef.h
 -
 stdint.h
@@ -312,23 +312,23 @@ intrin.h
 cpuid.h
 -
 aesb.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/aesb.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/aesb.h
 initializer.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/initializer.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/initializer.h
 Common/int-util.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/Common/int-util.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/Common/int-util.h
 hash-ops.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-ops.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/hash-ops.h
 oaes_lib.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/oaes_lib.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/oaes_lib.h
 slow-hash.inl
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/slow-hash.inl
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/slow-hash.inl
 slow-hash.inl
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/slow-hash.inl
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/slow-hash.inl
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/slow-hash.inl
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/slow-hash.inl
 
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/tree-hash.c
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/tree-hash.c
 alloca.h
 -
 assert.h
@@ -338,7 +338,7 @@ stddef.h
 string.h
 -
 hash-ops.h
-C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/crypto/hash-ops.h
+/mnt/c/Users/mateo/C++/Mcash/src/crypto/hash-ops.h
 
 include/CryptoTypes.h
 cstdint
@@ -356,9 +356,5 @@ string.h
 sys/param.h
 -
 stdlib.h
--
-
-src/platform/mingw/alloca.h
-malloc.h
 -
 

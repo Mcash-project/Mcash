@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/HTTP/HttpParser.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Http.dir/HTTP/HttpParser.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/HTTP/HttpParserErrorCodes.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/HTTP/HttpRequest.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/HTTP/HttpResponse.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.obj"
+  "/home/mateo/SYNC/C++/Mcash/src/HTTP/HttpParser.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Http.dir/HTTP/HttpParser.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/HTTP/HttpParserErrorCodes.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/HTTP/HttpRequest.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/HTTP/HttpResponse.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,7 +23,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external"
   "version"
   "src/Platform/Linux"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.

@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PerformanceTests.dir/PerformanceTests/main.cpp.obj"
-  "libperformance_tests.dll.a"
-  "performance_tests.exe"
-  "performance_tests.exe.manifest"
+  "CMakeFiles/PerformanceTests.dir/PerformanceTests/main.cpp.o"
+  "performance_tests"
   "performance_tests.pdb"
 )
 

@@ -1,2 +1,2 @@
-C:/msys64/mingw64/bin/ar.exe qc libTransfers.a  CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.obj CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.obj CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.obj CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.obj CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.obj CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.obj
-C:/msys64/mingw64/bin/ranlib.exe libTransfers.a
+/usr/bin/ar qc libTransfers.a  CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.o CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.o CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.o CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.o CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.o CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.o
+/usr/bin/ranlib libTransfers.a

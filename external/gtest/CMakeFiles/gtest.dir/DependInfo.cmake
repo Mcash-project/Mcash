@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/gtest/src/gtest-all.cc" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/external/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+  "/home/mateo/SYNC/C++/Mcash/external/gtest/src/gtest-all.cc" "/home/mateo/SYNC/C++/Mcash/external/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "src/Platform/Linux"
   "external/gtest/include"
   "external/gtest"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.

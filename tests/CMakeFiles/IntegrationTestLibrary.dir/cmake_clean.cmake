@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/BaseFunctionalTests.cpp.obj"
-  "CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/InProcTestNode.cpp.obj"
-  "CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Logger.cpp.obj"
-  "CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Process.cpp.obj"
-  "CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/RPCTestNode.cpp.obj"
-  "CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestNetwork.cpp.obj"
-  "CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestWalletLegacy.cpp.obj"
+  "CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/BaseFunctionalTests.cpp.o"
+  "CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/InProcTestNode.cpp.o"
+  "CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Logger.cpp.o"
+  "CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Process.cpp.o"
+  "CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/RPCTestNode.cpp.o"
+  "CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestNetwork.cpp.o"
+  "CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestWalletLegacy.cpp.o"
   "libIntegrationTestLibrary.a"
   "libIntegrationTestLibrary.pdb"
 )

@@ -4,21 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Wallet/LegacyKeysImporter.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Wallet.dir/Wallet/LegacyKeysImporter.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Wallet/WalletAsyncContextCounter.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Wallet.dir/Wallet/WalletAsyncContextCounter.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Wallet/WalletErrors.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Wallet.dir/Wallet/WalletErrors.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Wallet/WalletGreen.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Wallet.dir/Wallet/WalletGreen.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Wallet/WalletRpcServer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Wallet.dir/Wallet/WalletRpcServer.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Wallet/WalletSerialization.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Wallet.dir/Wallet/WalletSerialization.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Wallet/WalletUtils.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Wallet.dir/Wallet/WalletUtils.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/WalletLegacy/KeysStorage.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Wallet.dir/WalletLegacy/KeysStorage.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/WalletLegacy/WalletHelper.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletHelper.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/WalletLegacy/WalletLegacy.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacy.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/WalletLegacy/WalletLegacySerialization.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerialization.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/WalletLegacy/WalletLegacySerializer.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerializer.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/WalletLegacy/WalletTransactionSender.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletTransactionSender.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/WalletLegacy/WalletUnconfirmedTransactions.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUnconfirmedTransactions.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/WalletLegacy/WalletUserTransactionsCache.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUserTransactionsCache.cpp.obj"
+  "/home/mateo/SYNC/C++/Mcash/src/Wallet/LegacyKeysImporter.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Wallet.dir/Wallet/LegacyKeysImporter.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Wallet/WalletAsyncContextCounter.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Wallet.dir/Wallet/WalletAsyncContextCounter.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Wallet/WalletErrors.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Wallet.dir/Wallet/WalletErrors.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Wallet/WalletGreen.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Wallet.dir/Wallet/WalletGreen.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Wallet/WalletRpcServer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Wallet.dir/Wallet/WalletRpcServer.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Wallet/WalletSerialization.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Wallet.dir/Wallet/WalletSerialization.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Wallet/WalletUtils.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Wallet.dir/Wallet/WalletUtils.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/WalletLegacy/KeysStorage.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Wallet.dir/WalletLegacy/KeysStorage.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/WalletLegacy/WalletHelper.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletHelper.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/WalletLegacy/WalletLegacy.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacy.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/WalletLegacy/WalletLegacySerialization.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerialization.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/WalletLegacy/WalletLegacySerializer.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerializer.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/WalletLegacy/WalletTransactionSender.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletTransactionSender.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/WalletLegacy/WalletUnconfirmedTransactions.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUnconfirmedTransactions.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/WalletLegacy/WalletUserTransactionsCache.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUserTransactionsCache.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -34,7 +34,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external"
   "version"
   "src/Platform/Linux"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.

@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Logging/CommonLogger.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Logging.dir/Logging/CommonLogger.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Logging/ConsoleLogger.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Logging.dir/Logging/ConsoleLogger.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Logging/FileLogger.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Logging.dir/Logging/FileLogger.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Logging/ILogger.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Logging.dir/Logging/ILogger.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Logging/LoggerGroup.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Logging.dir/Logging/LoggerGroup.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Logging/LoggerManager.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Logging.dir/Logging/LoggerManager.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Logging/LoggerMessage.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Logging.dir/Logging/LoggerMessage.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Logging/LoggerRef.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Logging.dir/Logging/LoggerRef.cpp.obj"
-  "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/Logging/StreamLogger.cpp" "C:/Users/Evelyn/Documents/MateoCrypto/cryptonote-master/cryptonote-master/src/CMakeFiles/Logging.dir/Logging/StreamLogger.cpp.obj"
+  "/home/mateo/SYNC/C++/Mcash/src/Logging/CommonLogger.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Logging.dir/Logging/CommonLogger.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Logging/ConsoleLogger.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Logging.dir/Logging/ConsoleLogger.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Logging/FileLogger.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Logging.dir/Logging/FileLogger.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Logging/ILogger.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Logging.dir/Logging/ILogger.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Logging/LoggerGroup.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Logging.dir/Logging/LoggerGroup.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Logging/LoggerManager.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Logging.dir/Logging/LoggerManager.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Logging/LoggerMessage.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Logging.dir/Logging/LoggerMessage.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Logging/LoggerRef.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Logging.dir/Logging/LoggerRef.cpp.o"
+  "/home/mateo/SYNC/C++/Mcash/src/Logging/StreamLogger.cpp" "/home/mateo/SYNC/C++/Mcash/src/CMakeFiles/Logging.dir/Logging/StreamLogger.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -28,7 +28,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "external"
   "version"
   "src/Platform/Linux"
-  "src/platform/mingw"
   )
 
 # Targets to which this target links.
