@@ -8,6 +8,7 @@
 #include <list>
 #include <utility>
 #include <vector>
+#include <memory>
 #include <system_error>
 
 #include <CryptoNote.h>

@@ -1,0 +1,14 @@
+/home/mateo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mateo/SYNC/C++/Mcash
+CMake Warning (dev) at CMakeLists.txt:9 (set):
+  implicitly converting 'TYPE' to 'STRING' type.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning in CMakeLists.txt:
+  CMAKE_SKIP_INSTALL_RULES was enabled even though installation rules have
+  been specified
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mateo/SYNC/C++/Mcash/cmake-build-debug
+Cannot read CMake dependency information from /home/mateo/SYNC/C++/Mcash/cmake-build-debug/CMakeFiles/Makefile.cmake

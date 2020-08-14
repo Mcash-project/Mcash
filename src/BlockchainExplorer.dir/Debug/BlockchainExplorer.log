@@ -1,1 +1,2 @@
-﻿
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (BlockchainExplorer.dir\Debug\) contains files shared from another project (BlockchainExplorer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(502,5): error MSB3191: Unable to create directory "C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Debug\". Access to the path 'C:\Users\bmali\AppData\Roaming\Mcash Git\Mcash\src\Debug\' is denied.

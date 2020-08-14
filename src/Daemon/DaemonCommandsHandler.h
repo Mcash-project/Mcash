@@ -56,4 +56,6 @@ private:
   bool print_pool_sh(const std::vector<std::string>& args);
   bool start_mining(const std::vector<std::string>& args);
   bool stop_mining(const std::vector<std::string>& args);
+
+  bool print_hi(const std::vector<std::string>& args);
 };

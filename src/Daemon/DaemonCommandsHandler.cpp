@@ -19,6 +19,11 @@ namespace {
   }
 }
 
+using boost::placeholders::_1;
+using boost::placeholders::_2;
+using boost::placeholders::_3;
+using boost::placeholders::_4;
+
 
 DaemonCommandsHandler::DaemonCommandsHandler(CryptoNote::core& core, CryptoNote::NodeServer& srv, Logging::LoggerManager& log) :
   m_core(core), m_srv(srv), logger(log, "daemon"), m_logManager(log) {
@@ -38,6 +43,7 @@ DaemonCommandsHandler::DaemonCommandsHandler(CryptoNote::core& core, CryptoNote:
   m_consoleHandler.setHandler("show_hr", boost::bind(&DaemonCommandsHandler::show_hr, this, _1), "Start showing hash rate");
   m_consoleHandler.setHandler("hide_hr", boost::bind(&DaemonCommandsHandler::hide_hr, this, _1), "Stop showing hash rate");
   m_consoleHandler.setHandler("set_log", boost::bind(&DaemonCommandsHandler::set_log, this, _1), "set_log <level> - Change current log level, <level> is a number 0-4");
+  m_consoleHandler.setHandler("print_hi", boost::bind(&DaemonCommandsHandler::print_hi, this, _1), "TEST: Prints 'Hi' ");
 }
 
 //--------------------------------------------------------------------------------
@@ -302,3 +308,12 @@ bool DaemonCommandsHandler::stop_mining(const std::vector<std::string>& args) {
   m_core.get_miner().stop();
   return true;
 }
+
+bool DaemonCommandsHandler::print_hi(const std::vector<std::string>& args) {
+  Common::Console::setTextColor(Common::Console::Color::BrightBlue);
+  std::cout << "Hello!\n";
+  Common::Console::setTextColor(Common::Console::Color::Default);
+
+  return true;
+}
+

@@ -1,0 +1,60 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/mateo/SYNC/C++/Mcash/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_12acc/fast && /usr/bin/make  -f CMakeFiles/cmTC_12acc.dir/build.make CMakeFiles/cmTC_12acc.dir/build
+make[1]: Entering directory '/home/mateo/SYNC/C++/Mcash/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12acc.dir/src.c.o
+/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=implicit-fallthrough -Wno-error=uninitialized -Wno-error=terminate -Wno-error=unused-result -Wno-error=logical-op -Wno-error=redundant-move -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=implicit-fallthrough -Wno-error=odr -Wno-error=format-truncation -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=implicit-fallthrough -Wno-error=format-truncation -w -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=format-truncation -Wno-error=implicit-fallthrough -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_12acc.dir/src.c.o   -c /home/mateo/SYNC/C++/Mcash/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_12acc
+/home/mateo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12acc.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=implicit-fallthrough -Wno-error=uninitialized -Wno-error=terminate -Wno-error=unused-result -Wno-error=logical-op -Wno-error=redundant-move -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=implicit-fallthrough -Wno-error=odr -Wno-error=format-truncation -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=implicit-fallthrough -Wno-error=format-truncation -w -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=format-truncation -Wno-error=implicit-fallthrough -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_12acc.dir/src.c.o  -o cmTC_12acc 
+/usr/bin/ld: CMakeFiles/cmTC_12acc.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_12acc.dir/build.make:107: cmTC_12acc] Error 1
+make[1]: Leaving directory '/home/mateo/SYNC/C++/Mcash/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_12acc/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/mateo/SYNC/C++/Mcash/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f0026/fast && /usr/bin/make  -f CMakeFiles/cmTC_f0026.dir/build.make CMakeFiles/cmTC_f0026.dir/build
+make[1]: Entering directory '/home/mateo/SYNC/C++/Mcash/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0026.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=implicit-fallthrough -Wno-error=uninitialized -Wno-error=terminate -Wno-error=unused-result -Wno-error=logical-op -Wno-error=redundant-move -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=implicit-fallthrough -Wno-error=odr -Wno-error=format-truncation -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=implicit-fallthrough -Wno-error=format-truncation -w -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=format-truncation -Wno-error=implicit-fallthrough -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f0026.dir/CheckFunctionExists.c.o   -c /home/mateo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f0026
+/home/mateo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0026.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=implicit-fallthrough -Wno-error=uninitialized -Wno-error=terminate -Wno-error=unused-result -Wno-error=logical-op -Wno-error=redundant-move -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=implicit-fallthrough -Wno-error=odr -Wno-error=format-truncation -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=implicit-fallthrough -Wno-error=format-truncation -w -Wno-error=unused-value -Wno-error=class-memaccess -Wno-error=format-truncation -Wno-error=implicit-fallthrough -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f0026.dir/CheckFunctionExists.c.o  -o cmTC_f0026  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_f0026.dir/build.make:107: cmTC_f0026] Error 1
+make[1]: Leaving directory '/home/mateo/SYNC/C++/Mcash/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_f0026/fast] Error 2
+
+
+
