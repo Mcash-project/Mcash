@@ -9,6 +9,8 @@ CMake Warning in CMakeLists.txt:
 
 
 -- Configuring done
--- Generating done
--- Build files have been written to: /home/mateo/SYNC/C++/Mcash/cmake-build-debug
-Cannot read CMake dependency information from /home/mateo/SYNC/C++/Mcash/cmake-build-debug/CMakeFiles/Makefile.cmake
+CMake Error at src/CMakeLists.txt:42 (add_library):
+  No SOURCES given to target: Http
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

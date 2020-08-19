@@ -479,8 +479,9 @@ struct COMMAND_RPC_QUERY_BLOCKS_LITE {
       KV_MEMBER(currentHeight)
       KV_MEMBER(fullOffset)
       KV_MEMBER(items)
-    }
+      }
+    };
   };
-};
+
 
 }
