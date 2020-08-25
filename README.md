@@ -1,40 +1,15 @@
-# electroBUCKS
-Electrobucks, a privacy focused cryptocurrency
+## Mcash
 
-Dependencies
--------------
+This is still a WIP, but it will become a privacy + security focused cryptocurrency.
 
-Boost 1.55 or higher,
-CMake,
-gcc,
+### Building
 
-To install on debian or ubuntu,
+Very straight forward.
+Install [Boost](https://www.boost.org/)
+Install [CMake](https://cmake.org/)
 
-```   
-sudo apt install libboost-all-dev cmake make build-essential gcc g++ -y
+Then compile with CMake on any platform.
 
-```
-Install/Compiling
-------------------
-Comptible with x86, x86-64 and arm
+### Binaries
 
-To compile:
-```
-git clone https://github.com/oetam5002/electrobucks
-cd electrobucks
-make clean
-rm -rf CMakeCache.txt && rm -rf CMakeFiles
-cmake .
-make -j8 && bash finish.sh
-```
-where 8 = number of threads
-
-When done, run:
-```
-./electrobucksd --seed-node 172.218.22.157:18000
-```
-
-Help
------------------
-
-Any help would be appreciated
+If you do not want to build from source, binaries are [here](https://github.com/Yourlitdaddy/Mcash/releases)
