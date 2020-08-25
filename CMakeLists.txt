@@ -26,11 +26,16 @@ else()
   set(ARCH_ID "${ARCH}")
 endif()
 string(TOLOWER "${ARCH_ID}" ARM_ID)
-#string(SUBSTRING "${ARM_ID}" 0 3 ARM_TEST)
+string(SUBSTRING "${ARM_ID}" 0 3 ARM_TEST)
+
+
 if (ARM_TEST STREQUAL "arm")
   set(ARM 1)
   string(SUBSTRING "${ARM_ID}" 0 5 ARM_TEST)
   if (ARM_TEST STREQUAL "armv6")
+    set(ARM6 1)
+  endif()
+  if (ARM_TEST STREQUAL "armv6l")
     set(ARM6 1)
   endif()
   if (ARM_TEST STREQUAL "armv7")
@@ -239,7 +244,7 @@ else()
   else()
     set(ARCH_FLAG "-march=${ARCH}")
   endif()
-  set(WARNINGS "-Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=class-memaccess -Wno-error=redundant-move")
+  set(WARNINGS "-Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wno-error=class-memaccess")
   if(NOT MINGW)
     set(WARNINGS_AS_ERRORS_FLAG "-Werror")
   endif()
@@ -315,14 +320,18 @@ else()
     message(STATUS "AES support disabled")
   endif()
   
+  if(CMAKE_CXX_COMPILER_VERSION VERSION_GREATER 9)
+    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wno-error=redundant-move")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-error=redundant-move")
+  endif()
+  
   set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c11 -D_GNU_SOURCE ${MINGW_FLAG} ${STATIC_ASSERT_FLAG} ${WARNINGS} ${C_WARNINGS} ${ARCH_FLAG} ${PIC_FLAG}")
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -D_GNU_SOURCE ${MINGW_FLAG} ${STATIC_ASSERT_CPP_FLAG} ${WARNINGS} ${CXX_WARNINGS} ${ARCH_FLAG} ${PIC_FLAG}")
 
   # With GCC 6.1.1 the compiled binary malfunctions due to aliasing. Until that
   # is fixed in the code (Issue #847), force compiler to be conservative.
-  set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fno-strict-aliasing")
+  set(CMAKE_C_FLAGS "{CMAKE_C_FLAGS} -fno-strict-aliasing")
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-strict-aliasing")
-  
   
   if(ARM)
     message(STATUS "Setting FPU Flags for ARM Processors")
