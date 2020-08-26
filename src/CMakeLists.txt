@@ -69,10 +69,16 @@ target_link_libraries(ConnectivityTool CryptoNoteCore Logging Crypto P2P Rpc Htt
 target_link_libraries(Daemon CryptoNoteCore P2P Rpc System Http Logging Common Crypto upnpc-static BlockchainExplorer ${Boost_LIBRARIES} Serialization ${EXTRA_LIBRARIES})
 target_link_libraries(SimpleWallet Wallet NodeRpcProxy Transfers Rpc Http CryptoNoteCore System Logging Common Crypto ${Boost_LIBRARIES} Serialization Mnemonics ${EXTRA_LIBRARIES})
 target_link_libraries(PaymentGateService PaymentGate JsonRpcServer Wallet NodeRpcProxy Transfers CryptoNoteCore Crypto P2P Rpc Http System Logging Common InProcessNode upnpc-static BlockchainExplorer ${Boost_LIBRARIES} Serialization ${EXTRA_LIBRARIES})
-target_link_libraries(Miner CryptoNoteCore Rpc System Http Logging Common Crypto ${Boost_LIBRARIES} Serialization ${EXTRA_LIBRARIES})
+target_link_libraries(Miner CryptoNoteCore Rpc System Http Logging Common Crypto ${Boost_LIBRARIES} -latomic Serialization ${EXTRA_LIBRARIES})
 
 if (${CMAKE_SYSTEM_NAME} STREQUAL "Linux" OR APPLE AND NOT ANDROID)
   target_link_libraries(SimpleWallet -lresolv)
+endif ()
+
+if (ARM)
+  target_link_libraries(Daemon atomic)
+  target_link_libraries(PaymentGateService atomic)
+  target_link_libraries(Simplewallet atomic)
 endif ()
 
 add_dependencies(Rpc version)

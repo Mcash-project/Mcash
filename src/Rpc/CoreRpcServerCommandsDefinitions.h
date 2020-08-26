@@ -277,6 +277,7 @@ struct COMMAND_RPC_GET_INFO {
     uint64_t tx_count;
     uint64_t tx_pool_size;
     uint64_t alt_blocks_count;
+    uint64_t current_connections_count;
     uint64_t outgoing_connections_count;
     uint64_t incoming_connections_count;
     uint64_t white_peerlist_size;
@@ -293,6 +294,7 @@ struct COMMAND_RPC_GET_INFO {
       KV_MEMBER(tx_count)
       KV_MEMBER(tx_pool_size)
       KV_MEMBER(alt_blocks_count)
+      KV_MEMBER(current_connections_count)
       KV_MEMBER(outgoing_connections_count)
       KV_MEMBER(incoming_connections_count)
       KV_MEMBER(white_peerlist_size)

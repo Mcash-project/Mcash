@@ -28,8 +28,8 @@ static_assert(0 < UPGRADE_VOTING_THRESHOLD && UPGRADE_VOTING_THRESHOLD <= 100, "
 static_assert(UPGRADE_VOTING_WINDOW > 1, "Bad UPGRADE_VOTING_WINDOW");
 
 const uint64_t TAIL_EMISSION_REWARD                          = UINT64_C(10000000000); //what this?
-const size_t CRYPTONOTE_COIN_VERSION                         = 1;
-const uint64_t PRE_BLOCK_REWARD	                             = UINT64_C(84000000000000000);
+const size_t   CRYPTONOTE_COIN_VERSION                       = 1;
+const uint64_t PRE_BLOCK_REWARD	                             = UINT64_C(8400000000000000000);
 
 const size_t   DIFFICULTY_WINDOW_V2                          = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
 const size_t   DIFFICULTY_WINDOW_V3                          = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY; // blocks (add one to compensate off-by-one in difficulty calculation)
