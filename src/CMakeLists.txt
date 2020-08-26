@@ -78,7 +78,7 @@ endif ()
 if (ARM)
   target_link_libraries(Daemon atomic)
   target_link_libraries(PaymentGateService atomic)
-  target_link_libraries(Simplewallet atomic)
+  target_link_libraries(SimpleWallet atomic)
 endif ()
 
 add_dependencies(Rpc version)
