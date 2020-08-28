@@ -409,6 +409,6 @@ bool DaemonCommandsHandler::god_mode(const std::vector<std::string>& args) {
     }
 
     std::cout << "NICE TRY!, MAYBE NEXT TIME!\n";
-    std::cout << processed << ENDL;
+
     return false;
 }
