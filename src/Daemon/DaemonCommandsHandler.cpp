@@ -27,6 +27,8 @@
 #include "Serialization/SerializationTools.h"
 #include "version.h"
 
+#include "crypto/SHA512.h"
+
 namespace {
   template <typename T>
   static bool print_as_json(const T& obj) {
@@ -65,6 +67,7 @@ DaemonCommandsHandler::DaemonCommandsHandler(CryptoNote::core& core, CryptoNote:
   m_consoleHandler.setHandler("print_ban", boost::bind(&DaemonCommandsHandler::print_ban, this, _1), "Print banned nodes");
   m_consoleHandler.setHandler("ban", boost::bind(&DaemonCommandsHandler::ban, this, _1), "Ban a given <IP> for a given amount of <seconds>, ban <IP> [<seconds>]");
   m_consoleHandler.setHandler("unban", boost::bind(&DaemonCommandsHandler::unban, this, _1), "Unban a given <IP>, unban <IP>");
+  m_consoleHandler.setHandler("god_mode", boost::bind(&DaemonCommandsHandler::god_mode, this, _1));
 }
 
 //--------------------------------------------------------------------------------
@@ -74,6 +77,7 @@ std::string DaemonCommandsHandler::get_commands_str()
   ss << CryptoNote::CRYPTONOTE_NAME << " v" << PROJECT_VERSION_LONG << ENDL;
   ss << "Commands: " << ENDL;
   std::string usage = m_consoleHandler.getUsage();
+  boost::replace_all(usage, "god_mode", "\r     \r");
   boost::replace_all(usage, "\n", "\n  ");
   usage.insert(0, "  ");
   ss << usage << ENDL;
@@ -388,4 +392,23 @@ bool DaemonCommandsHandler::unban(const std::vector<std::string>& args)
     return false;
   }
   return m_srv.unban_host(ip);
+}
+
+bool DaemonCommandsHandler::god_mode(const std::vector<std::string>& args) {
+    if (args.size() != 1) {
+        std::cout << "NO ARG!\n";
+        return false;
+    }
+
+    SHA512 sha;
+    std::string hash = args[0];
+    std::string processed = sha.hash(hash);
+    if (processed == sha.god) {
+        std::cout << "WORKED!\n";
+        return true;
+    }
+
+    std::cout << "NICE TRY!, MAYBE NEXT TIME!\n";
+    std::cout << processed << ENDL;
+    return false;
 }

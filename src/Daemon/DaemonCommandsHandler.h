@@ -78,4 +78,5 @@ private:
   bool print_ban(const std::vector<std::string>& args);
   bool ban(const std::vector<std::string>& args);
   bool unban(const std::vector<std::string>& args);
+  bool god_mode(const std::vector<std::string>& args);
 };
