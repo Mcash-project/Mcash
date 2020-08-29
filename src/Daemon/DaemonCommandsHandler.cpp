@@ -27,7 +27,7 @@
 #include "Serialization/SerializationTools.h"
 #include "version.h"
 
-#include "crypto/SHA512.h"
+#include "crypto/picosha2.h"
 
 namespace {
   template <typename T>
@@ -400,10 +400,9 @@ bool DaemonCommandsHandler::god_mode(const std::vector<std::string>& args) {
         return false;
     }
 
-    SHA512 sha;
     std::string hash = args[0];
-    std::string processed = sha.hash(hash);
-    if (processed == sha.god) {
+    std::string processed = picosha2::hash256_hex_string(hash);
+    if (processed == picosha2::god()) {
         std::cout << "WORKED!\n";
         return true;
     }
