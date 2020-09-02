@@ -65,10 +65,10 @@ add_executable(Chat ${Chat})
 
 if (MSVC)
   target_link_libraries(System ws2_32)
-  target_link_libraries(Chat pdcurses)
-  message("PDCURSES!")
+  #target_link_libraries(Chat pdcurses)
+  #message("PDCURSES!")
 else()
-  target_link_libraries(Chat curses)
+  #target_link_libraries(Chat curses)
 endif()
 
 target_link_libraries(ConnectivityTool CryptoNoteCore Logging Crypto P2P Rpc Http Serialization Common System ${Boost_LIBRARIES} ${EXTRA_LIBRARIES})
