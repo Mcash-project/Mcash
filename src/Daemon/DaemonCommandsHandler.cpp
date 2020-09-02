@@ -2,6 +2,7 @@
 // Copyright (c) 2014-2018, The Monero project
 // Copyright (c) 2014-2018, The Forknote developers
 // Copyright (c) 2016-2018, The Karbowanec developers
+// Copyright (c) 2020-2020, The Mcash developers
 //
 // This file is part of Bytecoin.
 //
@@ -67,7 +68,7 @@ DaemonCommandsHandler::DaemonCommandsHandler(CryptoNote::core& core, CryptoNote:
   m_consoleHandler.setHandler("print_ban", boost::bind(&DaemonCommandsHandler::print_ban, this, _1), "Print banned nodes");
   m_consoleHandler.setHandler("ban", boost::bind(&DaemonCommandsHandler::ban, this, _1), "Ban a given <IP> for a given amount of <seconds>, ban <IP> [<seconds>]");
   m_consoleHandler.setHandler("unban", boost::bind(&DaemonCommandsHandler::unban, this, _1), "Unban a given <IP>, unban <IP>");
-  m_consoleHandler.setHandler("god_mode", boost::bind(&DaemonCommandsHandler::god_mode, this, _1));
+  //m_consoleHandler.setHandler("god_mode", boost::bind(&DaemonCommandsHandler::god_mode, this, _1));
 }
 
 //--------------------------------------------------------------------------------
@@ -77,7 +78,7 @@ std::string DaemonCommandsHandler::get_commands_str()
   ss << CryptoNote::CRYPTONOTE_NAME << " v" << PROJECT_VERSION_LONG << ENDL;
   ss << "Commands: " << ENDL;
   std::string usage = m_consoleHandler.getUsage();
-  boost::replace_all(usage, "god_mode", "\r     \r");
+  //boost::replace_all(usage, "god_mode", "\r     \r");
   boost::replace_all(usage, "\n", "\n  ");
   usage.insert(0, "  ");
   ss << usage << ENDL;
@@ -394,7 +395,7 @@ bool DaemonCommandsHandler::unban(const std::vector<std::string>& args)
   return m_srv.unban_host(ip);
 }
 
-bool DaemonCommandsHandler::god_mode(const std::vector<std::string>& args) {
+/*bool DaemonCommandsHandler::god_mode(const std::vector<std::string>& args) {
     if (args.size() != 1) {
         std::cout << "NO ARG!\n";
         return false;
@@ -410,4 +411,4 @@ bool DaemonCommandsHandler::god_mode(const std::vector<std::string>& args) {
     std::cout << "NICE TRY!, MAYBE NEXT TIME!\n";
 
     return false;
-}
+}*/

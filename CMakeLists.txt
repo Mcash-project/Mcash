@@ -158,6 +158,7 @@ endif()
 
 if(MSVC)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src/Platform/Windows)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/external/pdcurses)
 elseif(APPLE)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src/Platform/OSX)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src/Platform/Posix)
