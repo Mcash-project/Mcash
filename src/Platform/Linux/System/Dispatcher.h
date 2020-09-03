@@ -85,7 +85,7 @@ public:
 #if defined(__x86_64__) || defined(__aarch64__)
 # ifdef __aarch64__
   static const int SIZEOF_PTHREAD_MUTEX_T = 48;
-# elseif __WORDSIZE == 64
+# elif __WORDSIZE == 64 && defined __x86_64__
   static const int SIZEOF_PTHREAD_MUTEX_T = 40;
 # else
   static const int SIZEOF_PTHREAD_MUTEX_T = 32;
