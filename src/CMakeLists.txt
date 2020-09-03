@@ -81,10 +81,6 @@ if (${CMAKE_SYSTEM_NAME} STREQUAL "Linux" OR APPLE AND NOT ANDROID)
   target_link_libraries(SimpleWallet -lresolv)
 endif ()
 
-if (${CUSTOMBOOSTPATH} STREQUAL YES)
-  target_link_libraries(SimpleWallet -L/home/mateo/osxcross/target/macports/pkgs/opt/local/lib/ -lboost_filesystem -lboost_system)
-endif ()  
-
 if (ARM)
   target_link_libraries(Daemon atomic)
   target_link_libraries(PaymentGateService atomic)
