@@ -49,11 +49,11 @@
 #include <map>
 
 #include <boost/bind.hpp>
-#if defined __linux__ && !defined __ANDROID__
+#if defined __linux__ && !defined __ANDROID__ || defined __APPLE__
 #define BOOST_NO_CXX11_SCOPED_ENUMS
 #endif
 #include <boost/filesystem.hpp>
-#if defined __linux__ && !defined __ANDROID__
+#if defined __linux__ && !defined __ANDROID__ || defined __APPLE__
 #undef BOOST_NO_CXX11_SCOPED_ENUMS
 #endif
 #include <boost/lexical_cast.hpp>
