@@ -81,7 +81,7 @@ if (${CMAKE_SYSTEM_NAME} STREQUAL "Linux" OR APPLE AND NOT ANDROID)
   target_link_libraries(SimpleWallet -lresolv)
 endif ()
 
-if (ARM)
+if (ARM AND NOT ARM8)
   target_link_libraries(Daemon atomic)
   target_link_libraries(PaymentGateService atomic)
   target_link_libraries(SimpleWallet atomic)
