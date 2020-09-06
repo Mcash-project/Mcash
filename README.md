@@ -2,6 +2,9 @@
 
 This is still a WIP, but it will become a privacy + security focused cryptocurrency.
 
+### Discord
+[Invite Link](https://discord.gg/aCXsYX8)
+
 ### Building
 
 Very straight forward.
