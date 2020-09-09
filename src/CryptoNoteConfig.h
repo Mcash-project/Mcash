@@ -10,7 +10,10 @@
 namespace CryptoNote {
 namespace parameters {
 
-const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 1000000; //size of block (bytes) after which reward for block calculated using block size
+const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1  = 1000000; //size of block (bytes) after which reward for block calculated using block size
+const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2  = 0;
+
+const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2;
 
 const uint64_t DIFFICULTY_TARGET                             = 120; // seconds
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
@@ -19,7 +22,7 @@ const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DI
 
 const uint64_t MAX_TX_MIXIN_SIZE                             = 20;
 
-const uint32_t UPGRADE_HEIGHT_V2                             = 30000; // Diff algo Change from cryptonote default to lwma
+const uint32_t UPGRADE_HEIGHT_V2                             = 9000; // Diff algo Change from cryptonote default to lwma
 const uint32_t UPGRADE_HEIGHT_V3                             = 32025; // POW algo Change from cryptonote default to cnv7 Anti ASIC
 const unsigned UPGRADE_VOTING_THRESHOLD                      = 90; // percent
 const uint32_t UPGRADE_VOTING_WINDOW                         = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
