@@ -200,6 +200,7 @@ if(MINGW)
 endif()
 
 if(STATIC)
+  message("STATIC!")
   if(MSVC)
     set(CMAKE_FIND_LIBRARY_SUFFIXES .lib .dll.a .a ${CMAKE_FIND_LIBRARY_SUFFIXES})
   else()
