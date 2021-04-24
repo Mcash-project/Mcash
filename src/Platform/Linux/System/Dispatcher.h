@@ -18,9 +18,11 @@
 #pragma once
 
 #include <cstddef>
+#include <cstdint>
 #include <functional>
 #include <queue>
 #include <stack>
+#include <stdexcept>
 #ifndef __GLIBC__
 #include <bits/reg.h>
 #endif
@@ -30,22 +32,22 @@ namespace System {
 struct NativeContextGroup;
 
 struct NativeContext {
-  void* ucontext;
-  void* stackPtr;
+  void *ucontext;
+  void *stackPtr;
   bool interrupted;
-  NativeContext* next;
-  NativeContextGroup* group;
-  NativeContext* groupPrev;
-  NativeContext* groupNext;
+  NativeContext *next;
+  NativeContextGroup *group;
+  NativeContext *groupPrev;
+  NativeContext *groupNext;
   std::function<void()> procedure;
   std::function<void()> interruptProcedure;
 };
 
 struct NativeContextGroup {
-  NativeContext* firstContext;
-  NativeContext* lastContext;
-  NativeContext* firstWaiter;
-  NativeContext* lastWaiter;
+  NativeContext *firstContext;
+  NativeContext *lastContext;
+  NativeContext *firstWaiter;
+  NativeContext *lastWaiter;
 };
 
 struct OperationContext {
@@ -62,43 +64,42 @@ struct ContextPair {
 class Dispatcher {
 public:
   Dispatcher();
-  Dispatcher(const Dispatcher&) = delete;
+  Dispatcher(const Dispatcher &) = delete;
   ~Dispatcher();
-  Dispatcher& operator=(const Dispatcher&) = delete;
+  Dispatcher &operator=(const Dispatcher &) = delete;
   void clear();
   void dispatch();
-  NativeContext* getCurrentContext() const;
+  NativeContext *getCurrentContext() const;
   void interrupt();
-  void interrupt(NativeContext* context);
+  void interrupt(NativeContext *context);
   bool interrupted();
-  void pushContext(NativeContext* context);
-  void remoteSpawn(std::function<void()>&& procedure);
+  void pushContext(NativeContext *context);
+  void remoteSpawn(std::function<void()> &&procedure);
   void yield();
 
   // system-dependent
   int getEpoll() const;
-  NativeContext& getReusableContext();
-  void pushReusableContext(NativeContext&);
+  NativeContext &getReusableContext();
+  void pushReusableContext(NativeContext &);
   int getTimer();
   void pushTimer(int timer);
 
 #if defined(__x86_64__) || defined(__aarch64__)
-# ifdef __aarch64__
+#ifdef __aarch64__
   static const int SIZEOF_PTHREAD_MUTEX_T = 48;
-# elif __WORDSIZE == 64 && defined __x86_64__
+#elif __WORDSIZE == 64 && defined __x86_64__
   static const int SIZEOF_PTHREAD_MUTEX_T = 40;
-# else
+#else
   static const int SIZEOF_PTHREAD_MUTEX_T = 32;
-# endif
+#endif
 #else
   static const int SIZEOF_PTHREAD_MUTEX_T = 24;
 #endif
 
-
 private:
-  void spawn(std::function<void()>&& procedure);
+  void spawn(std::function<void()> &&procedure);
   int epoll;
-  alignas(void*) uint8_t mutex[SIZEOF_PTHREAD_MUTEX_T];
+  alignas(void *) uint8_t mutex[SIZEOF_PTHREAD_MUTEX_T];
   int remoteSpawnEvent;
   ContextPair remoteSpawnEventContext;
   std::queue<std::function<void()>> remoteSpawningProcedures;
@@ -106,14 +107,14 @@ private:
 
   NativeContext mainContext;
   NativeContextGroup contextGroup;
-  NativeContext* currentContext;
-  NativeContext* firstResumingContext;
-  NativeContext* lastResumingContext;
-  NativeContext* firstReusableContext;
+  NativeContext *currentContext;
+  NativeContext *firstResumingContext;
+  NativeContext *lastResumingContext;
+  NativeContext *firstReusableContext;
   size_t runningContextCount;
 
-  void contextProcedure(void* ucontext);
-  static void contextProcedureStatic(void* context);
+  void contextProcedure(void *ucontext);
+  static void contextProcedureStatic(void *context);
 };
 
-}
+} // namespace System

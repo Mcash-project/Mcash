@@ -13,7 +13,7 @@ namespace parameters {
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1  = 1000000; //size of block (bytes) after which reward for block calculated using block size
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2  = 0;
 
-const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2;
+const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1;
 
 const uint64_t DIFFICULTY_TARGET                             = 120; // seconds
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
@@ -22,7 +22,7 @@ const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DI
 
 const uint64_t MAX_TX_MIXIN_SIZE                             = 20;
 
-const uint32_t UPGRADE_HEIGHT_V2                             = 9000; // Diff algo Change from cryptonote default to lwma
+const uint32_t UPGRADE_HEIGHT_V2                             = 32020; // Diff algo Change from cryptonote default to lwma
 const uint32_t UPGRADE_HEIGHT_V3                             = 32025; // POW algo Change from cryptonote default to cnv7 Anti ASIC
 const unsigned UPGRADE_VOTING_THRESHOLD                      = 90; // percent
 const uint32_t UPGRADE_VOTING_WINDOW                         = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
@@ -37,8 +37,6 @@ const uint64_t PRE_BLOCK_REWARD	                             = UINT64_C(84000000
 const size_t   DIFFICULTY_WINDOW_V2                          = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
 const size_t   DIFFICULTY_WINDOW_V3                          = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY; // blocks (add one to compensate off-by-one in difficulty calculation)
 
-const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2  = 1000000;
-const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1  = 100000;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_CURRENT = CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE;
 
 // CUSTOM

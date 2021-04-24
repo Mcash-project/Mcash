@@ -253,9 +253,9 @@ else()
   endif()
   if(CMAKE_C_COMPILER_ID STREQUAL "Clang")
     # maybe remove
-    set(WARNINGS "${WARNINGS} -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=unknown-warning-option -Wno-error=inconsistent-missing-override -Wno-error=unused-lambda-capture -Wno-error=delete-non-abstract-non-virtual-dtor -Wno-error=range-loop-construct -Wno-error=return-std-move")
+    set(WARNINGS "${WARNINGS} -Wno-error=mismatched-tags -Wno-error=null-conversion -Wno-overloaded-shift-op-parentheses -Wno-error=shift-count-overflow -Wno-error=tautological-constant-out-of-range-compare -Wno-error=unused-private-field -Wno-error=unneeded-internal-declaration -Wno-error=unused-function -Wno-error=unknown-warning-option -Wno-error=inconsistent-missing-override -Wno-error=unused-lambda-capture -Wno-error=delete-non-abstract-non-virtual-dtor -Wno-error=range-loop-construct -Wno-error=return-std-move -Wno-error=c++11-narrowing")
 	if(NOT APPLE) 
-		set(WARNINGS "${WARNINGS} -Wno-unused-lambda-capture")
+		set(WARNINGS "${WARNINGS} -Wno-unused-lambda-capture -Wno-error=c++11-narrowing")
 	endif()
 	# this ^
 	if(ARM)
