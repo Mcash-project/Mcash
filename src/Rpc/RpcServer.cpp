@@ -808,7 +808,7 @@ bool RpcServer::f_on_transaction_json(const F_COMMAND_RPC_GET_TRANSACTION_DETAIL
 
 bool RpcServer::f_on_pool_json(const F_COMMAND_RPC_GET_POOL::request& req, F_COMMAND_RPC_GET_POOL::response& res) {
   auto pool = m_core.getPoolTransactions();
-  for (const Transaction tx : pool) {
+  for (const Transaction &tx : pool) {
     f_transaction_short_response transaction_short;
   
     uint64_t amount_in = getInputAmount(tx);
@@ -826,7 +826,7 @@ bool RpcServer::f_on_pool_json(const F_COMMAND_RPC_GET_POOL::request& req, F_COM
 
 bool RpcServer::f_on_mempool_json(const COMMAND_RPC_GET_MEMPOOL::request& req, COMMAND_RPC_GET_MEMPOOL::response& res) {
   auto pool = m_core.getMemoryPool();
-  for (const CryptoNote::tx_memory_pool::TransactionDetails txd : pool) {
+  for (const CryptoNote::tx_memory_pool::TransactionDetails &txd : pool) {
     f_mempool_transaction_response mempool_transaction;
     uint64_t amount_out = getOutputAmount(txd.tx);
 
