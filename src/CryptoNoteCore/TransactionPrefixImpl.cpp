@@ -19,6 +19,7 @@
 
 #include <numeric>
 #include <system_error>
+#include <algorithm>
 
 #include "CryptoNoteCore/CryptoNoteBasic.h"
 #include "CryptoNoteCore/TransactionApiExtra.h"

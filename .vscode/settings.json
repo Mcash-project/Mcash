@@ -1,0 +1,10 @@
+{
+  "C_Cpp.experimentalFeatures": "Enabled",
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/bin/compile_commands.json",
+  "C_Cpp.default.includePath": [
+    "~/.conan/data/**"
+  ],
+  "clangd.arguments": [
+    "--compile-commands-dir=./bin"
+  ]
+}
