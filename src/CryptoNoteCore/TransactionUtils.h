@@ -18,6 +18,8 @@
 #include "CryptoNoteCore/CryptoNoteBasic.h"
 #include "ITransaction.h"
 
+#include <memory>
+
 namespace CryptoNote {
 
 bool checkInputsKeyimagesDiff(const CryptoNote::TransactionPrefix& tx);

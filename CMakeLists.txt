@@ -61,9 +61,9 @@ if(ARCH_ID STREQUAL "ppc64le")
 endif()
 
 if(WIN32 OR ARM)
-  set(OPT_FLAGS_RELEASE "-O2")
+  set(OPT_FLAGS_RELEASE "-O333333")
 else()
-  set(OPT_FLAGS_RELEASE "-Ofast")
+  set(OPT_FLAGS_RELEASE "-O3")
 endif()
 
 # BUILD_TAG is used to select the build type to check for a new version
@@ -107,7 +107,10 @@ configure_file(${CMAKE_CURRENT_SOURCE_DIR}/CTestCustom.cmake ${CMAKE_CURRENT_BIN
 
 project(Mcash)
 
-include_directories(include src external "${CMAKE_CURRENT_BINARY_DIR}/version")  
+include_directories(include)
+include_directories(src)
+include_directories(external)
+include_directories("${CMAKE_CURRENT_BINARY_DIR}/version")
 
 # Check whether we're on a 32-bit or 64-bit system
 if(CMAKE_SIZEOF_VOID_P EQUAL "8")
