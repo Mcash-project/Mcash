@@ -28,6 +28,16 @@ set(Boost_NO_BOOST_CMAKE ON)
 # when ARCH is not set to an explicit identifier, cmake's builtin is used
 # to identify the target architecture, to direct logic in this cmake script.
 # Since ARCH is a cached variable, it will not be set on first cmake invocation.
+
+option (FORCE_COLORED_OUTPUT "Always produce ANSI-colored output (GNU/Clang only)." TRUE)
+if (${FORCE_COLORED_OUTPUT})
+    if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
+       add_compile_options (-fdiagnostics-color=always)
+    elseif ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
+       add_compile_options (-fcolor-diagnostics)
+    endif ()
+endif ()
+
 if (NOT ARCH OR ARCH STREQUAL "" OR ARCH STREQUAL "native" OR ARCH STREQUAL "default")
   set(ARCH_ID "${CMAKE_SYSTEM_PROCESSOR}")
 else()
