@@ -28,6 +28,8 @@
 #include "CryptoNoteCore/CryptoNoteFormatUtils.h"
 #include "CryptoNoteCore/TransactionApi.h"
 
+#include <thread>
+
 using namespace Common;
 using namespace Crypto;
 using namespace Logging;

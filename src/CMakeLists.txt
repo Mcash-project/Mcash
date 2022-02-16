@@ -64,7 +64,7 @@ add_executable(Miner ${Miner})
 #add_executable(Chat ${Chat})
 
 if (MSVC)
-  target_link_libraries(System ws2_32)
+  target_link_libraries(System ws2_32 bcrypt)
   #target_link_libraries(Chat pdcurses)
   #message("PDCURSES!")
 else()
